@@ -1,0 +1,144 @@
+
+
+/** 
+ *------------------------------------------------------------------------------
+ * @package       T3 Framework for Joomla!
+ *------------------------------------------------------------------------------
+ * @copyright     Copyright (C) 2004-2013 JoomlArt.com. All Rights Reserved.
+ * @license       GNU General Public License version 2 or later; see LICENSE.txt
+ * @authors       JoomlArt, JoomlaBamboo, (contribute to this project at github 
+ *                & Google group to become co-author)
+ * @Google group: https://groups.google.com/forum/#!forum/t3fw
+ * @Link:         http://t3-framework.org 
+ *------------------------------------------------------------------------------
+ */
+.caret {
+  display: none !important;
+}
+.dropdown-menu {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-radius: 0px;
+  border: 0;
+  font-weight: 400;
+  font-size: 16px;
+}
+.dropdown-menu > li > a {
+  padding: 5px 20px;
+}
+.dropdown-menu .mega-nav > li {
+  border-bottom: 1px solid #ebebeb;
+}
+.dropdown-menu .mega-nav > li a {
+  padding: 5px 0 !important;
+}
+.dropdown-menu .mega-nav > li:last-child {
+  border-bottom: 0;
+}
+.dropdown-header {
+  padding: 3px 20px;
+  font-size: 18px;
+}
+.dropdown-header a {
+  color: #999999;
+}
+.dropdown-submenu > .dropdown-menu {
+  border-radius: 0;
+}
+.dropdown-submenu > a:after {
+  border-left-color: #cccccc;
+}
+.dropdown-submenu:hover > a:after {
+  border-left-color: #a1d1d2;
+}
+.nav {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+}
+.nav > li > a:hover,
+.nav > li > a:focus {
+  color: #333;
+}
+.nav > li > .separator {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+  line-height: 29px;
+}
+@media (min-width: 768px) {
+  .nav > li > .separator {
+    padding-top: 15.5px;
+    padding-bottom: 15.5px;
+  }
+}
+.nav .caret {
+  border-top-color: #2e2e2e;
+  border-bottom-color: #2e2e2e;
+}
+.nav a:hover .caret {
+  border-top-color: #a1d1d2;
+  border-bottom-color: #a1d1d2;
+}
+.t3-navhelper {
+  background: #f5f5f5;
+  border-top: 1px solid #eeeeee;
+  color: #555555;
+  padding: 5px 0;
+}
+.breadcrumb {
+  margin-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+  border-radius: 0;
+}
+.breadcrumb > li + li:before {
+  content: "/\00a0";
+}
+.breadcrumb > .active {
+  color: #999999;
+}
+.breadcrumb .divider {
+  display: none;
+}
+.pagination {
+  display: block;
+}
+.pagination:before,
+.pagination:after {
+  content: " ";
+  display: table;
+}
+.pagination:after {
+  clear: both;
+}
+@media screen and (min-width: 768px) {
+  .pagination {
+    float: left;
+  }
+}
+.pagination .pagination {
+  display: inline-block;
+}
+.counter {
+  display: inline-block;
+  margin-top: 29px;
+  padding: 6px 12px;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+}
+@media screen and (min-width: 768px) {
+  .counter {
+    float: right;
+  }
+}
+.panel-heading > .dropdown .dropdown-toggle {
+  color: inherit;
+}
+.panel-title > a {
+  color: inherit;
+}
+
+

@@ -1,0 +1,120 @@
+body {
+  background: url(../images/offline.png);
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+
+/* LAYOUT
+----------------------------------------------------- */
+#frame {
+  background: #fcfcfc;
+  border: 1px solid #ddd;
+  margin: 100px auto 0;
+  width: 600px;
+}
+
+/* Logo */
+#frame h1 {
+  background:#f3eb2c url(../../../images/mouse/logo/logo.png) center;
+  background-repeat: no-repeat;
+  color: #fff;
+  margin: 0;
+  padding: 15px 0;
+  text-align: center;
+  height: 60px;
+}
+
+#frame .offline-message {
+  background: #fff;
+  border-bottom: 1px solid #eee;
+  color: #666;
+  margin-top: 0;
+  padding: 15px 20px;
+  text-align: center;
+}
+
+/* Form login */
+#form-login label {
+  color: #666;
+}
+
+#form-login fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0 20px;
+}
+
+#form-login #form-login-username,
+#form-login #form-login-password {
+  float: left;
+  margin-right: 10px;
+  width: 270px;
+}
+
+#form-login #form-login-password {
+  margin-right: 0;
+  margin-left: 10px;
+}
+
+#form-login #form-login-username label,
+#form-login #form-login-password label {
+  display: block;
+  margin-bottom: 3px;
+}
+
+#form-login #form-login-username .inputbox,
+#form-login #form-login-password .inputbox {
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  height: 36px;
+  line-height: 36px;
+  padding: 0 10px;
+  width: 100%;
+}
+
+#form-login #form-login-remember .inputbox {
+  vertical-align: middle;
+}
+
+#form-login #submit-buton label {
+  display: none;
+}
+
+#form-login #submit-buton .button {
+  border: 1px solid #f3eb2c;
+  font-size: 14px;
+  padding: 8px 20px;
+  background: #f3eb2c;
+  text-transform: uppercase;
+}
+
+#form-login #submit-buton .button:hover {
+  background: #ccc;
+  border-color: #ccc;
+  color: #fff;
+  cursor: pointer;
+}
+
+
+dl#system-message{
+  padding: 0 20px;
+  text-align: center;
+}
+
+dl#system-message dt{
+  color: #f00;
+}
+
+dl#system-message dd{
+  margin: 0;
+}
+dl#system-message ul{
+  list-style: none;
+  padding: 0;
+  color: #c17575;
+}

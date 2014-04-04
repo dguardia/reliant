@@ -1,0 +1,64 @@
+body {
+  color: rgba(0,0,0, .5);
+  font-size: 18px;
+  font-family: sans-serif;
+  background: url(../images/error.png);
+ 
+
+}
+
+a {
+  text-decoration: none;
+}
+
+.error {
+  margin: 100px auto 0;
+  width: 600px;
+  background: #fff;
+  border-radius: 2px;
+  padding: 0 20px 30px 20px;
+  box-shadow: 20px 20px  rgba(0,0,0,.01);
+}
+
+#errorboxheader {
+  color: #eb9a9a;
+  font-weight: bold;
+  text-align: center;
+  font-size: 260px;
+  line-height: 260px;
+  text-shadow:10px 10px rgba(0,0,0,.05);
+}
+
+#errorboxbody{
+  text-align: center;
+
+ 
+  padding: 30px 0;
+
+}
+
+#techinfo{
+  font-size: 30px;
+  line-height: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+
+
+.btn {
+  font-size: 14px;
+  border-radius:0;
+  color: #fff;
+  padding: 10px 20px;
+  margin-top: 30px;
+}
+
+.btn-primary {
+  background: #D55757;
+  text-transform: uppercase;
+}
+
+.btn-primary:hover {
+  background-color: #ccc;
+}

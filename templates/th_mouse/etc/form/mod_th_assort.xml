@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<!-- <fields name="params" addfieldpath="/plugins/system/helix/elements">   -->
+	<fields name="params">
+
+		<fieldset name="hippooptions" label="ThemeHippo Slider Options">
+
+
+			<field type="spacer" name="spacer1" label="Slider 1"  hr="true" />
+
+		
+
+			<field name="slider_1_bgimage" type="media" label="Background Image" directory="" />
+
+			<field name="slider_1_bgvideo_mp4" type="filelist" default="" label="Background .mp4 video" description="" directory="images/mouse/slider" />
+
+			<field name="slider_1_bgvideo_webm" type="filelist" default="" label="Background .webm video" description="" directory="images/mouse/slider" />
+
+			<field name="slider_1_bgvideo_ogv" type="filelist" default="" label="Background .ogv video" description="" directory="images/mouse/slider" />
+
+				<field name="slider_1_background_type" type="radio" default="image" label="Background type" description="Choose Background type">
+				<option value="image">Image</option>
+				<option value="video">Video</option>
+			</field>
+
+			<field name="slider_1_contents"  label="Contents" description="Slider 1 html Contents" type="editor" width="500" filter="safehtml" />
+
+
+
+
+			<field type="spacer" name="spacer2" label="Slider 2"  hr="true" />
+
+			
+
+			<field name="slider_2_bgimage" type="media" label="Background Image" directory="" />
+
+			<field name="slider_2_bgvideo_mp4" type="filelist" default="" label="Background .mp4 video" description="" directory="images/mouse/slider" />
+
+			<field name="slider_2_bgvideo_webm" type="filelist" default="" label="Background .webm video" description="" directory="images/mouse/slider" />
+
+			<field name="slider_2_bgvideo_ogv" type="filelist" default="" label="Background .ogv video" description="" directory="images/mouse/slider" />
+
+			<field name="slider_2_background_type" type="radio" default="image" label="Background type" description="Choose Background type">
+				<option value="image">Image</option>
+				<option value="video">Video</option>
+			</field>
+
+			<field name="slider_2_contents"  label="Contents" description="Slider 2 html Contents" type="editor" width="500" filter="safehtml" />
+
+
+
+			<field type="spacer" name="spacer3" label="Slider 3"  hr="true" />
+			<field name="slider_3_bgimage" type="media" label="Background Image" directory="" />
+			<field name="slider_3_bgvideo_mp4" type="filelist" default="" label="Background .mp4 video" description="" directory="images/mouse/slider" />
+			<field name="slider_3_bgvideo_webm" type="filelist" default="" label="Background .webm video" description="" directory="images/mouse/slider" />
+			<field name="slider_3_bgvideo_ogv" type="filelist" default="" label="Background .ogv video" description="" directory="images/mouse/slider" />
+			<field name="slider_3_background_type" type="radio" default="image" label="Background type" description="Choose Background type">
+				<option value="image">Image</option>
+				<option value="video">Video</option>
+			</field>
+			<field name="slider_3_contents"  label="Contents" description="Slider 3 html Contents" type="editor" width="500" filter="safehtml" />
+
+
+			<field type="spacer" name="spacer4" label="Slider 4"  hr="true" />
+			
+			<field name="slider_4_bgimage" type="media" label="Background Image" directory="" />
+			
+			<field name="slider_4_bgvideo_mp4" type="filelist" default="" label="Background .mp4 video" description="" directory="images/mouse/slider" />
+			
+			<field name="slider_4_bgvideo_webm" type="filelist" default="" label="Background .webm video" description="" directory="images/mouse/slider" />
+			
+			<field name="slider_4_bgvideo_ogv" type="filelist" default="" label="Background .ogv video" description="" directory="images/mouse/slider" />
+			
+			<field name="slider_4_background_type" type="radio" default="image" label="Background type" description="Choose Background type">
+				<option value="image">Image</option>
+				<option value="video">Video</option>
+			</field>
+
+			<field name="slider_4_contents"  label="Contents" description="Slider 4 html Contents" type="editor" width="500" filter="safehtml" />
+
+
+		<field type="spacer" name="spacer5" label="Slider 5"  hr="true" />
+			
+			<field name="slider_5_bgimage" type="media" label="Background Image" directory="" />
+			
+			<field name="slider_5_bgvideo_mp4" type="filelist" default="" label="Background .mp4 video" description="" directory="images/mouse/slider" />
+			
+			<field name="slider_5_bgvideo_webm" type="filelist" default="" label="Background .webm video" description="" directory="images/mouse/slider" />
+			
+			<field name="slider_5_bgvideo_ogv" type="filelist" default="" label="Background .ogv video" description="" directory="images/mouse/slider" />
+			
+			<field name="slider_5_background_type" type="radio" default="image" label="Background type" description="Choose Background type">
+				<option value="image">Image</option>
+				<option value="video">Video</option>
+			</field>
+
+			<field name="slider_5_contents"  label="Contents" description="Slider 4 html Contents" type="editor" width="500" filter="safehtml" />
+
+
+		</fieldset>
+
+	</fields>
+</form>

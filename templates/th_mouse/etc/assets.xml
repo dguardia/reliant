@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<assets>
+	<scripts>
+		<file>js/modernizr.js</file>
+		<file>js/jquery.easing.1.3.js</file>
+		<file>js/jquery.hoverdir.js</file>
+		<file>js/jquery.viewport.js</file>
+		<file>js/count.js</file>
+		<file>js/jquery.fitvids.js</file>
+		<file>js/script.js</file>
+	</scripts>
+	
+	<stylesheets>
+		<file>fonts/font-awesome/css/font-awesome.min.css</file>
+		<file>fonts/icomoon/icomoon.css</file>
+		<file>css/animation/animate.css</file>
+		<file>//fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700,800</file>
+		<file>css/template-responsive.css</file>
+
+	</stylesheets>
+	
+</assets>

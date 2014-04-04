@@ -1,0 +1,124 @@
+.tp-caption.th-h2-title {
+font-size:46px;
+line-height:60px;
+font-weight:600;
+font-family:Dosis;
+color:rgb(255, 255, 255);
+text-decoration:none;
+background-color:transparent;
+border-width:0px;
+border-color:rgb(255, 214, 88);
+border-style:none;
+}
+
+.tp-caption.th-h3-title {
+font-size:24px;
+line-height:40px;
+font-weight:500;
+font-family:Dosis;
+color:#ffffff;
+text-decoration:none;
+background-color:transparent;
+text-align:center;
+border-width:0px;
+border-color:rgb(34, 34, 34);
+border-style:none;
+}
+
+.tp-caption.th-h1-title {
+font-size:48px;
+line-height:60px;
+font-weight:700;
+font-family:Dosis;
+color:#ffffff;
+text-decoration:none;
+background-color:transparent;
+border-width:0px;
+border-color:rgb(255, 214, 88);
+border-style:none;
+}
+
+.tp-caption.th-subtitle-title {
+font-size:30px;
+line-height:40px;
+font-weight:600;
+font-family:Dosis;
+color:#ffffff;
+text-decoration:none;
+background-color:transparent;
+border-width:0px;
+border-color:rgb(255, 214, 88);
+border-style:none;
+}
+
+.tp-caption.th-button {
+text-decoration:none;
+background-color:transparent;
+border-width:0px;
+border-color:rgb(34, 34, 34);
+border-style:none;
+}
+
+.tp-caption.medium_bg_orange {
+font-size:20px;
+line-height:20px;
+font-weight:600;
+font-family:Dosis;
+color:#ffffff;
+text-decoration:none;
+background-color:rgb(243, 156, 18);
+background-color:rgba(243, 156, 18, 1);
+text-transform:uppercase;
+padding:10px 10px 10px 10px;
+border-width:0px;
+border-color:rgb(255, 214, 88);
+border-style:none;
+}
+
+.tp-caption.medium_bg_red {
+font-size:20px;
+line-height:20px;
+font-weight:600;
+text-transform:uppercase;
+font-family:Dosis;
+color:#ffffff;
+text-decoration:none;
+background-color:rgb(227, 58, 12);
+background-color:rgba(227, 58, 12, 1);
+padding:10px 10px 10px 10px;
+border-width:0px;
+border-color:rgb(255, 214, 88);
+border-style:none;
+}
+
+.tp-caption.medium_bg_asbestos {
+font-size:20px;
+line-height:20px;
+font-weight:600;
+font-family:Dosis;
+color:rgb(255, 255, 255);
+text-decoration:none;
+background-color:rgb(127, 140, 141);
+text-transform:uppercase;
+padding:10px;
+border-width:0px;
+border-color:rgb(255, 214, 88);
+border-style:none;
+}
+
+.tp-caption.largepinkbg {
+font-size:40px;
+line-height:40px;
+font-weight:600;
+font-family:Dosis;
+color:#ffffff;
+text-decoration:none;
+background-color:rgb(219, 67, 96);
+background-color:rgba(219, 67, 96, 1);
+text-shadow:none;
+padding:10px 20px;
+border-width:0px;
+border-color:rgb(255, 255, 255);
+border-style:none;
+}
+

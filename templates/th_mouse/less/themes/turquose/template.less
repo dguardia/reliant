@@ -1,0 +1,425 @@
+/** 
+ *------------------------------------------------------------------------------
+ * @package       T3 Framework for Joomla!
+ *------------------------------------------------------------------------------
+ * @copyright     Copyright (C) 2004-2013 JoomlArt.com. All Rights Reserved.
+ * @license       GNU General Public License version 2 or later; see LICENSE.txt
+ * @authors       JoomlArt, JoomlaBamboo, (contribute to this project at github 
+ *                & Google group to become co-author)
+ * @Google group: https://groups.google.com/forum/#!forum/t3fw
+ * @Link:         http://t3-framework.org 
+ *------------------------------------------------------------------------------
+ */
+
+
+//
+// HOME
+// ---------------------------------------------------------
+.home {
+
+  // Home Spotlights
+  // ---------------
+  .t3-sl-1,
+  .t3-sl-5 {
+    // jumbotron
+    .jumbotron {
+      //jumbotron btn
+      .btn {
+        border-color: #fff;
+      }
+    }
+  }
+
+}
+
+
+//
+// NAVIGATIONS
+// ---------------------------------------------------------
+.t3-mainnav {
+  border-bottom: none;
+}
+
+
+// CUSTOM
+// ---------------------------------------------------------
+
+
+//NAV BAR
+
+.header-wrapper{
+  .th-navbar{
+      background:@brand-primary;
+
+      &::before{
+        background:fade(@brand-primary, 50%);
+     }
+    }
+
+  .logo-wrapper{
+      background:@brand-primary;
+      &:before{
+        background:@brand-primary;
+      }
+
+      &::after{
+         background:fade(@brand-primary, 50%);
+      }
+    }  
+
+  .navbar-nav {
+
+    > li > a {
+      color: @gray-darker;
+    }
+
+  }
+
+
+//SHARE
+.share{
+    .sp_social ul {
+      li{
+        a{
+          color: @gray-darker;
+          &:hover{
+            color:#fff;
+          }
+        }
+      }
+    }
+  }
+
+
+}
+
+
+
+
+// SERVICES
+
+.service-box{
+      span{
+        &:before{
+          color:@brand-primary;
+        }
+      }
+  }
+
+
+// PORTFOLIO
+
+.sprocket-mosaic{
+  .th-overlay{
+    background:@brand-primary;
+    h2 a{
+      color:@gray-darker;
+    }
+    a {
+      span{
+      &:hover{
+        color: #fff;
+      }
+      }
+
+
+    }
+
+  }
+  .loadmore-more span{
+      &:hover{
+        color:@brand-primary;
+      }
+  }
+
+    .sprocket-mosaic-header{
+      .sprocket-mosaic-filter{
+        li{
+          &.active{
+            color: @brand-primary;
+            border-bottom: 2px solid @brand-primary;
+          }
+        }
+      }
+    }
+
+}
+
+
+// TESTIMONIAL
+
+ .testimonial{
+    .sprocket-strips-item{
+      .sprocket-strips-content{
+        color: @gray-darker;
+        background: @brand-primary;
+        .box-shadow(-10px -10px 0 #e0d80e);        
+        &:after{
+          border-color: transparent @brand-primary transparent transparent;
+        }
+        .sprocket-strips-text{
+            &::before, &::after{
+              color:rgba(0,0,0,.2);
+            }
+            &::before{
+            }
+            &::after{
+              
+            }
+        }
+        .sprocket-strips-title{
+          color: rgba(0,0,0,.5);
+        }
+      }
+      .client-avatar{
+      }
+    }
+
+    .sprocket-strips-pagination{
+      ul{
+        li{
+          box-shadow: inset 0 0 0 2px @brand-primary;
+          &.active{
+            .opacity(1);  
+            background: @brand-primary !important;
+            
+          }
+        }
+      }
+    }
+  }
+
+
+
+
+
+// BUTTON STYLE
+
+.btn-large {
+  span {
+    background: @brand-primary;
+    color: @gray-darker;
+  }
+
+  &::before {
+    background: #fff;
+    color: @gray-darker;
+  }
+}
+
+.btn-large-green{
+  span {
+    background: #28ca4b;
+    color: #fff;
+  }
+
+  &::before {
+    background: #fff;
+    color: @gray-darker;
+  }
+}
+
+// BOTTOM CONATC DETAILS
+
+.number{
+  span{
+    color: @brand-primary;
+  }
+}
+
+
+
+
+
+// BACK TO TOP
+button#back-to-top{
+    background: @brand-primary;
+  }
+
+
+// -------------------------------
+// BREABDCRUMB
+// -------------------------------
+
+.breadcrumb {
+  a{
+    &:hover{
+      color: @brand-primary;
+    }
+  }
+
+}
+
+
+// ----------------------------
+// HIPPO SLIDER
+// ----------------------------
+
+.hippo-slider-wrapper{
+.carousel-control-wrapper{
+    .left, .right{ 
+      background : @brand-primary;
+      color: @gray-darker;
+
+      &:hover{
+        color  : #2e2e2e;
+      }
+
+     }
+  }
+}
+
+
+// -----------------------------
+// TEAM
+// -----------------------------
+
+.team{
+  .team-hover-content{
+    background : @brand-primary;
+  }
+}
+
+.join-us{
+  background : @brand-primary;
+}
+
+// -----------------------------
+// K2 BLOG
+// -----------------------------
+
+div.catItemHeader {
+  .th-date{
+    background   : @brand-primary;
+    color: @gray-darker;
+    &::before{
+      border : 40px solid #e9e124;
+    }
+  }
+}
+
+div.catItemCategory a:hover, 
+div.catItemTagsBlock ul.catItemTags li a:hover,
+div.itemToolbar ul li a:hover,
+div.itemLinks  a:hover,
+div.userItemCommentsLink a:hover,
+div.tagItemCategory a:hover
+ {color: @brand-primary}
+
+// READMORE
+
+a.k2ReadMore{
+   background   : @brand-primary;
+}
+
+//-------
+
+  div.itemNavigation a.itemPrevious:hover,
+  div.itemNavigation a.itemNext:hover,
+  div.k2Pagination ul li a:hover,
+  div.k2TagCloudBlock a:hover,
+div.k2LoginBlock fieldset.input input.button,
+.k2AccountPage div.k2AccountPageUpdate button.button
+   {
+    background: @brand-primary;
+  }
+
+
+// -----------------
+// ALL BUTTON
+// -----------------
+
+button.button, submit.button, input#submitCommentButton, input.button{
+    background    : @brand-primary !important;
+    color: @gray-darker !important;
+    &:hover{
+      background:@gray-darker !important;
+      color: #fff !important;
+    }
+  }
+
+
+
+// SERVICE BOX
+
+.service-style2{
+.th-box{
+.icon{
+
+border              : 2px solid @brand-primary;
+color               : @brand-primary;       
+}
+
+.content{
+
+strong{
+}
+}
+
+&:hover{
+.icon{
+background : @brand-primary;
+color      : #fff;
+}
+
+}
+}
+}
+
+
+.service-style2-bg{
+.th-box{
+.icon{
+
+border              : 2px solid rgba(255,255,255,.5);
+color               : #fff;       
+}
+
+.content{
+
+strong{
+}
+}
+
+&:hover{
+
+.icon{
+ border      : 2px solid #fff;
+  background : #fff;
+  color      : #2d2d2d;
+}
+
+}
+}
+
+}
+
+
+
+
+
+// SLIDER ARROW
+//-----------------
+
+
+  .tp-leftarrow.default {
+  background: url(../../../images/themes/turquose/slider-arrow.png) bottom left !important;
+  width: 60px !important;
+  height: 60px !important;
+  }
+
+  .tp-rightarrow.default {
+  background: url(../../../images/themes/turquose/slider-arrow.png) bottom right !important;
+  width: 60px !important;
+  height: 60px !important;
+  }
+  
+  .tp-leftarrow:hover{
+    background-position:top left !important;
+  }
+
+  .tp-rightarrow:hover{
+    background-position:top right !important;
+  }
+
+

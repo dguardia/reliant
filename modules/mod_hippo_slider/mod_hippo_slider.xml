@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="2.5" client="site" method="upgrade">
+  <name>Hippo Slider Module</name>
+  <author>ThemeHippo.com</author>
+  <creationDate>Feb 2014</creationDate>
+  <copyright>Copyright (C) 2010 - 2012 ThemeHippo.com. All rights reserved.</copyright>
+  <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+  <authorEmail>themehippo@gmail.com</authorEmail>
+  <authorUrl>www.themehippo.com</authorUrl>
+  <version>1.0.0</version>
+  <description>Slider module by ThemeHippo</description>
+  
+  <files>
+    <filename module="mod_hippo_slider">mod_hippo_slider.php</filename>
+    <folder>tmpl</folder>
+    <folder>fields</folder>
+    <folder>css</folder>
+    <filename>index.html</filename>
+  </files>
+  <config>
+    <fields name="params" addfieldpath="modules/mod_hippo_slider/fields">
+
+
+      <fieldset name="slider1" label="Slider 1">
+
+       <field
+        name="dir"
+        type="hippomkdir" />
+
+        <field
+          name="backgroundtype_1"
+          type="radio"
+          class="btn-group btn-group-yesno"
+          label="Background Type"
+          description="Choose slider background type"
+          default="image">
+          <option value="image">Image</option>
+          <option value="video">Video</option>
+        </field>
+        
+        <field 
+          name="backgroundimage_1" 
+          type="media"
+          label="Background Image" 
+          description="Select Backgound Image" />
+
+          
+          <field 
+            name="backgroundvideomp4_1" 
+            type="filelist" 
+            default="" 
+            label="MP4 video " 
+            description="Select Mp4 video file" 
+            directory="images/mod_hippo_slider" 
+            exclude="" 
+            filter="\.mp4$"
+            stripext="" />
+
+
+            <field 
+              name="backgroundvideowebm_1" 
+              type="filelist" 
+              default="" 
+              label="Webm video " 
+              description="Select webm video file" 
+              directory="images/mod_hippo_slider" 
+              filter="\.webm$" 
+              exclude="" 
+              stripext="" />
+
+              <field 
+                name="backgroundvideoogv_1" 
+                type="filelist" 
+                default="" 
+                label="OGV video " 
+                description="Select ogv video file" 
+                directory="images/mod_hippo_slider" 
+                filter="\.ogv$" 
+                exclude="" 
+                stripext="" />
+
+                <field 
+                  name="sliderdata_1" 
+                  label ="Slider Contents" 
+                  description="Slider Contents" 
+                  type="editor" 
+                  width="400" 
+                  filter="safehtml" />
+
+
+                </fieldset>
+
+
+<fieldset name="slider2" label="Slider 2">
+
+        <field
+          name="backgroundtype_2"
+          type="radio"
+          class="btn-group btn-group-yesno"
+          label="Background Type"
+          description="Choose slider background type"
+          default="image">
+          <option value="image">Image</option>
+          <option value="video">Video</option>
+        </field>
+        
+        <field 
+          name="backgroundimage_2" 
+          type="media"
+          label="Background Image" 
+          description="Select Backgound Image" />
+
+          
+          <field 
+            name="backgroundvideomp4_2" 
+            type="filelist" 
+            default="" 
+            label="MP4 video " 
+            description="Select Mp4 video file" 
+            directory="images/mod_hippo_slider" 
+            exclude="" 
+            filter="\.mp4$"
+            stripext="" />
+
+
+            <field 
+              name="backgroundvideowebm_2" 
+              type="filelist" 
+              default="" 
+              label="Webm video " 
+              description="Select webm video file" 
+              directory="images/mod_hippo_slider" 
+              filter="\.webm$" 
+              exclude="" 
+              stripext="" />
+
+              <field 
+                name="backgroundvideoogv_2" 
+                type="filelist" 
+                default="" 
+                label="OGV video " 
+                description="Select ogv video file" 
+                directory="images/mod_hippo_slider" 
+                filter="\.ogv$" 
+                exclude="" 
+                stripext="" />
+
+                <field 
+                  name="sliderdata_2" 
+                  label ="Slider Contents" 
+                  description="Slider Contents" 
+                  type="editor" 
+                  width="400" 
+                  filter="safehtml" />
+                </fieldset>
+
+
+
+<fieldset name="slider3" label="Slider 3">
+
+        <field
+          name="backgroundtype_3"
+          type="radio"
+          class="btn-group btn-group-yesno"
+          label="Background Type"
+          description="Choose slider background type"
+          default="image">
+          <option value="image">Image</option>
+          <option value="video">Video</option>
+        </field>
+        
+        <field 
+          name="backgroundimage_3" 
+          type="media"
+          label="Background Image" 
+          description="Select Backgound Image" />
+
+          
+          <field 
+            name="backgroundvideomp4_3" 
+            type="filelist" 
+            default="" 
+            label="MP4 video " 
+            description="Select Mp4 video file" 
+            directory="images/mod_hippo_slider" 
+            exclude="" 
+            filter="\.mp4$"
+            stripext="" />
+
+
+            <field 
+              name="backgroundvideowebm_3" 
+              type="filelist" 
+              default="" 
+              label="Webm video " 
+              description="Select webm video file" 
+              directory="images/mod_hippo_slider" 
+              filter="\.webm$" 
+              exclude="" 
+              stripext="" />
+
+              <field 
+                name="backgroundvideoogv_3" 
+                type="filelist" 
+                default="" 
+                label="OGV video " 
+                description="Select ogv video file" 
+                directory="images/mod_hippo_slider" 
+                filter="\.ogv$" 
+                exclude="" 
+                stripext="" />
+
+                <field 
+                  name="sliderdata_3" 
+                  label ="Slider Contents" 
+                  description="Slider Contents" 
+                  type="editor" 
+                  width="400" 
+                  filter="safehtml" />
+
+
+                </fieldset>
+
+<fieldset name="slider4" label="Slider 4">
+
+        <field
+          name="backgroundtype_4"
+          type="radio"
+          class="btn-group btn-group-yesno"
+          label="Background Type"
+          description="Choose slider background type"
+          default="image">
+          <option value="image">Image</option>
+          <option value="video">Video</option>
+        </field>
+        
+        <field 
+          name="backgroundimage_4" 
+          type="media"
+          label="Background Image" 
+          description="Select Backgound Image" />
+
+          
+          <field 
+            name="backgroundvideomp4_4" 
+            type="filelist" 
+            default="" 
+            label="MP4 video " 
+            description="Select Mp4 video file" 
+            directory="images/mod_hippo_slider" 
+            exclude="" 
+            filter="\.mp4$"
+            stripext="" />
+
+
+            <field 
+              name="backgroundvideowebm_4" 
+              type="filelist" 
+              default="" 
+              label="Webm video " 
+              description="Select webm video file" 
+              directory="images/mod_hippo_slider" 
+              filter="\.webm$" 
+              exclude="" 
+              stripext="" />
+
+              <field 
+                name="backgroundvideoogv_4" 
+                type="filelist" 
+                default="" 
+                label="OGV video " 
+                description="Select ogv video file" 
+                directory="images/mod_hippo_slider" 
+                filter="\.ogv$" 
+                exclude="" 
+                stripext="" />
+
+                <field 
+                  name="sliderdata_4" 
+                  label ="Slider Contents" 
+                  description="Slider Contents" 
+                  type="editor" 
+                  width="400" 
+                  filter="safehtml" />
+
+
+                </fieldset>
+
+
+        <fieldset name="slider5" label="Slider 5">
+
+        <field
+          name="backgroundtype_5"
+          type="radio"
+          class="btn-group btn-group-yesno"
+          label="Background Type"
+          description="Choose slider background type"
+          default="image">
+          <option value="image">Image</option>
+          <option value="video">Video</option>
+        </field>
+        
+        <field 
+          name="backgroundimage_5" 
+          type="media"
+          label="Background Image" 
+          description="Select Backgound Image" />
+
+          
+          <field 
+            name="backgroundvideomp4_5" 
+            type="filelist" 
+            default="" 
+            label="MP4 video " 
+            description="Select Mp4 video file" 
+            directory="images/mod_hippo_slider" 
+            exclude="" 
+            filter="\.mp4$"
+            stripext="" />
+
+
+            <field 
+              name="backgroundvideowebm_5" 
+              type="filelist" 
+              default="" 
+              label="Webm video " 
+              description="Select webm video file" 
+              directory="images/mod_hippo_slider" 
+              filter="\.webm$" 
+              exclude="" 
+              stripext="" />
+
+              <field 
+                name="backgroundvideoogv_5" 
+                type="filelist" 
+                default="" 
+                label="OGV video " 
+                description="Select ogv video file" 
+                directory="images/mod_hippo_slider" 
+                filter="\.ogv$" 
+                exclude="" 
+                stripext="" />
+
+                <field 
+                  name="sliderdata_5" 
+                  label ="Slider Contents" 
+                  description="Slider Contents" 
+                  type="editor" 
+                  width="400" 
+                  filter="safehtml" />
+
+
+                </fieldset>
+
+
+
+
+
+
+                <fieldset
+                  name="advanced">
+                  <field
+                    name="layout"
+                    type="modulelayout"
+                    label="JFIELD_ALT_LAYOUT_LABEL"
+                    description="JFIELD_ALT_MODULE_LAYOUT_DESC" />
+
+                    <field
+                      name="moduleclass_sfx"
+                      type="text"
+                      label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL"
+                      description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC" />
+
+                      <field
+                        name="cache"
+                        type="list"
+                        default="1"
+                        label="COM_MODULES_FIELD_CACHING_LABEL"
+                        description="COM_MODULES_FIELD_CACHING_DESC">
+                        <option
+                          value="1">JGLOBAL_USE_GLOBAL</option>
+                          <option
+                            value="0">COM_MODULES_FIELD_VALUE_NOCACHING</option>
+                          </field>
+
+                          <field
+                            name="cache_time"
+                            type="text"
+                            default="900"
+                            label="COM_MODULES_FIELD_CACHE_TIME_LABEL"
+                            description="COM_MODULES_FIELD_CACHE_TIME_DESC" />
+                            <field
+                              name="cachemode"
+                              type="hidden"
+                              default="static">
+                              <option
+                                value="static"></option>
+                              </field>
+                            </fieldset>
+                          </fields>
+                        </config>
+                      </extension>

@@ -1,0 +1,102 @@
+
+
+/** 
+ *------------------------------------------------------------------------------
+ * @package       T3 Framework for Joomla!
+ *------------------------------------------------------------------------------
+ * @copyright     Copyright (C) 2004-2013 JoomlArt.com. All Rights Reserved.
+ * @license       GNU General Public License version 2 or later; see LICENSE.txt
+ * @authors       JoomlArt, JoomlaBamboo, (contribute to this project at github 
+ *                & Google group to become co-author)
+ * @Google group: https://groups.google.com/forum/#!forum/t3fw
+ * @Link:         http://t3-framework.org 
+ *------------------------------------------------------------------------------
+ */
+.home .t3-sl-1 .jumbotron .btn,
+.home .t3-sl-5 .jumbotron .btn {
+  border-color: #fff;
+}
+.t3-mainnav {
+  border-bottom: none;
+}
+.th-navbar {
+  background: #cc0000;
+}
+.logo-wrapper {
+  background: #cc0000;
+}
+.logo-wrapper:before {
+  background: #cc0000;
+}
+.service-box span:before {
+  color: #cc0000;
+}
+.sprocket-mosaic .th-overlay {
+  background: #cc0000;
+}
+.sprocket-mosaic .loadmore-more span:hover {
+  color: #cc0000;
+}
+.testimonial .sprocket-strips-item .sprocket-strips-content {
+  background: #cc0000;
+  -webkit-box-shadow: -10px -10px 0 #e0d80e;
+  box-shadow: -10px -10px 0 #e0d80e;
+}
+.testimonial .sprocket-strips-item .sprocket-strips-content:after {
+  border-color: transparent #cc0000 transparent transparent;
+}
+.testimonial .sprocket-strips-pagination ul li {
+  background: #cc0000;
+}
+.btn-large span {
+  background: #cc0000;
+}
+.btn-large::before {
+  background: #fff;
+  color: #2e2e2e;
+}
+.number span {
+  color: #cc0000;
+}
+button#back-to-top {
+  background: #cc0000;
+}
+.breadcrumb a:hover {
+  color: #cc0000;
+}
+.hippo-slider-wrapper .carousel-control-wrapper .left,
+.hippo-slider-wrapper .carousel-control-wrapper .right {
+  background: #cc0000;
+}
+.team .team-hover-content {
+  background: #cc0000;
+}
+.join-us {
+  background: #cc0000;
+}
+div.catItemHeader .th-date {
+  background: #cc0000;
+}
+div.catItemHeader .th-date::before {
+  border: 40px solid #e9e124;
+}
+div.catItemCategory a:hover,
+div.catItemTagsBlock ul.catItemTags li a:hover,
+div.itemToolbar ul li a:hover,
+div.itemLinks a:hover,
+div.userItemCommentsLink a:hover,
+div.tagItemCategory a:hover {
+  color: #cc0000;
+}
+a.k2ReadMore {
+  background: #cc0000;
+}
+div.itemNavigation a.itemPrevious:hover,
+div.itemNavigation a.itemNext:hover,
+div.k2Pagination ul li a:hover,
+div.k2TagCloudBlock a:hover,
+div.k2LoginBlock fieldset.input input.button,
+.k2AccountPage div.k2AccountPageUpdate button.button {
+  background: #cc0000;
+}
+
