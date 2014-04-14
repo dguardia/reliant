@@ -67,7 +67,7 @@ a {
 }
 a:hover,
 a:focus {
-  color: #72cca7;
+  color: #037096;
   text-decoration: underline;
 }
 a:focus {
@@ -168,7 +168,7 @@ cite {
   color: #999999;
 }
 .text-primary {
-  color: #72cca7;
+  color: #037096;
 }
 .text-warning {
   color: #c09853;
@@ -711,7 +711,7 @@ input.invalid {
   border-left-color: #cccccc;
 }
 .dropdown-submenu:hover > a:after {
-  border-left-color: #72cca7;
+  border-left-color: #037096;
 }
 .nav {
   text-transform: uppercase;
@@ -740,8 +740,8 @@ input.invalid {
   border-bottom-color: #2e2e2e;
 }
 .nav a:hover .caret {
-  border-top-color: #72cca7;
-  border-bottom-color: #72cca7;
+  border-top-color: #037096;
+  border-bottom-color: #037096;
 }
 .t3-navhelper {
   background: #f5f5f5;
@@ -1128,7 +1128,7 @@ ul.latestusers li {
 .tagspopular ul > li > a:hover,
 .tagspopular ul > li > a:focus,
 .tagspopular ul > li > a:active {
-  background: #72cca7;
+  background: #037096;
   color: #ffffff;
   text-decoration: none;
 }
@@ -1147,7 +1147,7 @@ ul.latestusers li {
 .tagssimilar ul > li > a:hover,
 .tagssimilar ul > li > a:focus,
 .tagssimilar ul > li > a:active {
-  color: #72cca7;
+  color: #037096;
 }
 .module-ct > ol.breadcrumb {
   padding: 6px 12px;
@@ -1673,7 +1673,7 @@ div.finder {
   padding: 10px 20px;
 }
 .article-content .pagination li:hover {
-  background: #72cca7;
+  background: #037096;
   color: #fff;
 }
 .article-content .pagination li a {
@@ -1719,7 +1719,7 @@ div.finder {
 #article-index ul > .active > a,
 .article-index ul > .active > a {
   border: 0;
-  background: #72cca7;
+  background: #037096;
   color: #ffffff;
 }
 #article-index ul > .active > a:hover,
@@ -1729,7 +1729,7 @@ div.finder {
 #article-index ul > .active > a:focus,
 .article-index ul > .active > a:focus {
   border: 0;
-  background: #72cca7;
+  background: #037096;
   color: #ffffff;
 }
 .pagenav {
@@ -2013,7 +2013,7 @@ div.calendar {
   top: 0;
   left: 0;
   z-index: 99999999;
-  background-color: #72cca7;
+  background-color: #037096;
 }
 .spinner {
   width: 50px;
@@ -2229,7 +2229,7 @@ div.calendar {
   padding-bottom: 29px;
 }
 .navbar-nav li.open {
-  color: #72cca7;
+  color: #037096;
 }
 .navbar-nav li.active a {
   background: #fff;
@@ -2495,7 +2495,7 @@ iframe {
   z-index: 9999;
   left: 0;
   padding: 0 10%;
-  background: #72cca7;
+  background: #037096;
   -webkit-transition: top 500ms;
   transition: top 500ms;
   -webkit-backface-visibility: hidden;
@@ -2732,7 +2732,7 @@ a.more:hover::before {
   font-weight: 600;
   color: #2d2d2d !important;
   padding: 15px 40px;
-  background: #72cca7;
+  background: #037096;
   text-decoration: none;
   text-transform: uppercase;
   position: relative;
@@ -3856,19 +3856,19 @@ input#filter-search {
   border-bottom: none;
 }
 .header-wrapper .th-navbar {
-  background: #72cca7;
+  background: #037096;
 }
 .header-wrapper .th-navbar::before {
-  background: rgba(114, 204, 167, 0.5);
+  background: rgba(3, 112, 150, 0.5);
 }
 .header-wrapper .logo-wrapper {
-  background: #72cca7;
+  background: #037096;
 }
 .header-wrapper .logo-wrapper:before {
-  background: #72cca7;
+  background: #037096;
 }
 .header-wrapper .logo-wrapper::after {
-  background: rgba(114, 204, 167, 0.5);
+  background: rgba(3, 112, 150, 0.5);
 }
 .header-wrapper .navbar-nav > li > a {
   color: #2e2e2e;
@@ -3880,10 +3880,10 @@ input#filter-search {
   color: #fff;
 }
 .service-box span:before {
-  color: #72cca7;
+  color: #037096;
 }
 .sprocket-mosaic .th-overlay {
-  background: #72cca7;
+  background: #037096;
 }
 .sprocket-mosaic .th-overlay h2 a {
   color: #2e2e2e;
@@ -3892,20 +3892,20 @@ input#filter-search {
   color: #fff;
 }
 .sprocket-mosaic .loadmore-more span:hover {
-  color: #72cca7;
+  color: #037096;
 }
 .sprocket-mosaic .sprocket-mosaic-header .sprocket-mosaic-filter li.active {
-  color: #72cca7;
-  border-bottom: 2px solid #72cca7;
+  color: #037096;
+  border-bottom: 2px solid #037096;
 }
 .testimonial .sprocket-strips-item .sprocket-strips-content {
   color: #2e2e2e;
-  background: #72cca7;
+  background: #037096;
   -webkit-box-shadow: -10px -10px 0 #e0d80e;
   box-shadow: -10px -10px 0 #e0d80e;
 }
 .testimonial .sprocket-strips-item .sprocket-strips-content:after {
-  border-color: transparent #72cca7 transparent transparent;
+  border-color: transparent #037096 transparent transparent;
 }
 .testimonial .sprocket-strips-item .sprocket-strips-content .sprocket-strips-text::before,
 .testimonial .sprocket-strips-item .sprocket-strips-content .sprocket-strips-text::after {
@@ -3915,15 +3915,15 @@ input#filter-search {
   color: rgba(0, 0, 0, 0.5);
 }
 .testimonial .sprocket-strips-pagination ul li {
-  box-shadow: inset 0 0 0 2px #72cca7;
+  box-shadow: inset 0 0 0 2px #037096;
 }
 .testimonial .sprocket-strips-pagination ul li.active {
   opacity: 1;
   filter: alpha(opacity=100);
-  background: #72cca7 !important;
+  background: #037096 !important;
 }
 .btn-large span {
-  background: #72cca7;
+  background: #037096;
   color: #2e2e2e;
 }
 .btn-large::before {
@@ -3939,17 +3939,17 @@ input#filter-search {
   color: #2e2e2e;
 }
 .number span {
-  color: #72cca7;
+  color: #037096;
 }
 button#back-to-top {
-  background: #72cca7;
+  background: #037096;
 }
 .breadcrumb a:hover {
-  color: #72cca7;
+  color: #037096;
 }
 .hippo-slider-wrapper .carousel-control-wrapper .left,
 .hippo-slider-wrapper .carousel-control-wrapper .right {
-  background: #72cca7;
+  background: #037096;
   color: #2e2e2e;
 }
 .hippo-slider-wrapper .carousel-control-wrapper .left:hover,
@@ -3957,13 +3957,13 @@ button#back-to-top {
   color: #2e2e2e;
 }
 .team .team-hover-content {
-  background: #72cca7;
+  background: #037096;
 }
 .join-us {
-  background: #72cca7;
+  background: #037096;
 }
 div.catItemHeader .th-date {
-  background: #72cca7;
+  background: #037096;
   color: #2e2e2e;
 }
 div.catItemHeader .th-date::before {
@@ -3975,10 +3975,10 @@ div.itemToolbar ul li a:hover,
 div.itemLinks a:hover,
 div.userItemCommentsLink a:hover,
 div.tagItemCategory a:hover {
-  color: #72cca7;
+  color: #037096;
 }
 a.k2ReadMore {
-  background: #72cca7;
+  background: #037096;
 }
 div.itemNavigation a.itemPrevious:hover,
 div.itemNavigation a.itemNext:hover,
@@ -3986,13 +3986,13 @@ div.k2Pagination ul li a:hover,
 div.k2TagCloudBlock a:hover,
 div.k2LoginBlock fieldset.input input.button,
 .k2AccountPage div.k2AccountPageUpdate button.button {
-  background: #72cca7;
+  background: #037096;
 }
 button.button,
 submit.button,
 input#submitCommentButton,
 input.button {
-  background: #72cca7 !important;
+  background: #037096 !important;
   color: #2e2e2e !important;
 }
 button.button:hover,
@@ -4003,11 +4003,11 @@ input.button:hover {
   color: #fff !important;
 }
 .service-style2 .th-box .icon {
-  border: 2px solid #72cca7;
-  color: #72cca7;
+  border: 2px solid #037096;
+  color: #037096;
 }
 .service-style2 .th-box:hover .icon {
-  background: #72cca7;
+  background: #037096;
   color: #fff;
 }
 .service-style2-bg .th-box .icon {

@@ -183,7 +183,7 @@ ul.latestusers li {
 .tagspopular ul > li > a:hover,
 .tagspopular ul > li > a:focus,
 .tagspopular ul > li > a:active {
-  background: #f3eb2c;
+  background: #037096;
   color: #ffffff;
   text-decoration: none;
 }
@@ -202,7 +202,7 @@ ul.latestusers li {
 .tagssimilar ul > li > a:hover,
 .tagssimilar ul > li > a:focus,
 .tagssimilar ul > li > a:active {
-  color: #f3eb2c;
+  color: #037096;
 }
 .module-ct > ol.breadcrumb {
   padding: 6px 12px;

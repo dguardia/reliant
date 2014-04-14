@@ -1,0 +1,931 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="344bd91a-4e14-4f22-9bd9-a92b614298aa" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/reliant/.idea/reliant.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/reliant/.idea/scopes/scope_settings.xml" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\CHANGELOG" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\COPYRIGHT" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\CREDITS" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\INSTALL" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\LICENSES" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\application\bootstrap.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\application\defines.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\application\framework.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\application\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\application\router.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\application\web.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\configuration.php-dist" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\controller\database.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\controller\default.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\controller\detectftproot.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\controller\ftp.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\controller\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\controller\install\config.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\controller\install\database.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\controller\install\database_backup.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\controller\install\database_remove.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\controller\install\email.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\controller\install\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\controller\install\languages.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\controller\install\sample.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\controller\preinstall.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\controller\removefolder.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\controller\setdefaultlanguage.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\controller\setlanguage.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\controller\site.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\controller\summary.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\controller\verifyftpsettings.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\helper\database.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\helper\html\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\helper\html\installation.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\helper\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\index.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\af-ZA\af-ZA.ini" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\af-ZA\af-ZA.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\af-ZA\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\ar-AA\ar-AA.ini" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\ar-AA\ar-AA.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\ar-AA\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\be-BY\be-BY.ini" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\be-BY\be-BY.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\be-BY\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\bg-BG\bg-BG.ini" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\bg-BG\bg-BG.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\bg-BG\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\bs-BA\bs-BA.ini" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\bs-BA\bs-BA.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\bs-BA\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\ca-ES\ca-ES.ini" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\ca-ES\ca-ES.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\ca-ES\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\ckb-IQ\ckb-IQ.ini" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\ckb-IQ\ckb-IQ.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\ckb-IQ\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\cs-CZ\cs-CZ.ini" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\cs-CZ\cs-CZ.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\cs-CZ\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\da-DK\da-DK.ini" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\da-DK\da-DK.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\da-DK\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\de-DE\de-DE.ini" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\de-DE\de-DE.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\de-DE\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\el-GR\el-GR.ini" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\el-GR\el-GR.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\el-GR\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\en-AU\en-AU.ini" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\en-AU\en-AU.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\en-AU\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\en-GB\en-GB.ini" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\en-GB\en-GB.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\en-GB\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\en-US\en-US.ini" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\en-US\en-US.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\en-US\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\es-ES\es-ES.ini" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\es-ES\es-ES.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\es-ES\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\et-EE\et-EE.ini" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\et-EE\et-EE.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\et-EE\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\fa-IR\fa-IR.ini" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\fa-IR\fa-IR.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\fa-IR\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\fi-FI\fi-FI.ini" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\fi-FI\fi-FI.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\fi-FI\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\fr-FR\fr-FR.ini" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\fr-FR\fr-FR.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\fr-FR\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\he-IL\he-IL.ini" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\he-IL\he-IL.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\he-IL\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\hr-HR\hr-HR.ini" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\hr-HR\hr-HR.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\hr-HR\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\hu-HU\hu-HU.ini" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\hu-HU\hu-HU.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\hu-HU\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\id-ID\id-ID.ini" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\id-ID\id-ID.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\id-ID\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\it-IT\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\it-IT\it-IT.ini" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\it-IT\it-IT.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\ja-JP\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\ja-JP\ja-JP.ini" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\ja-JP\ja-JP.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\ko-KR\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\ko-KR\ko-KR.ini" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\ko-KR\ko-KR.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\lv-LV\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\lv-LV\lv-LV.ini" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\lv-LV\lv-LV.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\mk-MK\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\mk-MK\mk-MK.ini" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\mk-MK\mk-MK.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\ms-MY\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\ms-MY\ms-MY.ini" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\ms-MY\ms-MY.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\nb-NO\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\nb-NO\nb-NO.ini" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\nb-NO\nb-NO.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\nl-NL\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\nl-NL\nl-NL.ini" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\nl-NL\nl-NL.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\pl-PL\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\pl-PL\pl-PL.ini" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\pl-PL\pl-PL.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\ro-RO\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\ro-RO\ro-RO.ini" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\ro-RO\ro-RO.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\ru-RU\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\ru-RU\ru-RU.ini" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\ru-RU\ru-RU.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\sk-SK\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\sk-SK\sk-SK.ini" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\sk-SK\sk-SK.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\sr-RS\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\sr-RS\sr-RS.ini" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\sr-RS\sr-RS.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\sr-YU\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\sr-YU\sr-YU.ini" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\sr-YU\sr-YU.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\srp-ME\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\srp-ME\srp-ME.ini" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\srp-ME\srp-ME.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\sv-SE\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\sv-SE\sv-SE.ini" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\sv-SE\sv-SE.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\sw-KE\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\sw-KE\sw-KE.ini" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\sw-KE\sw-KE.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\sy-IQ\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\sy-IQ\sy-IQ.ini" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\sy-IQ\sy-IQ.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\ta-IN\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\ta-IN\ta-IN.ini" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\ta-IN\ta-IN.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\th-TH\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\th-TH\th-TH.ini" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\th-TH\th-TH.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\tr-TR\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\tr-TR\tr-TR.ini" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\tr-TR\tr-TR.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\ug-CN\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\ug-CN\ug-CN.ini" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\ug-CN\ug-CN.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\uk-UA\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\uk-UA\uk-UA.ini" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\uk-UA\uk-UA.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\vi-VN\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\vi-VN\vi-VN.ini" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\vi-VN\vi-VN.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\zh-CN\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\zh-CN\zh-CN.ini" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\zh-CN\zh-CN.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\zh-TW\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\zh-TW\zh-TW.ini" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\language\zh-TW\zh-TW.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\localise.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\model\configuration.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\model\database.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\model\fields\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\model\fields\language.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\model\fields\prefix.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\model\fields\sample.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\model\forms\database.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\model\forms\defaultlanguage.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\model\forms\ftp.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\model\forms\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\model\forms\preinstall.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\model\forms\site.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\model\forms\summary.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\model\ftp.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\model\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\model\languages.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\model\rules\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\model\rules\prefix.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\model\setup.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\response\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\response\json.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\sql\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\sql\mysql\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\sql\mysql\joomla.sql" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\sql\mysql\sample_blog.sql" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\sql\mysql\sample_brochure.sql" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\sql\mysql\sample_data.sql" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\sql\mysql\sample_learn.sql" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\sql\mysql\sample_testing.sql" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\sql\postgresql\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\sql\postgresql\joomla.sql" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\sql\postgresql\sample_blog.sql" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\sql\postgresql\sample_data.sql" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\sql\postgresql\sample_learn.sql" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\sql\postgresql\sample_testing.sql" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\sql\sqlazure\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\sql\sqlazure\joomla.sql" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\sql\sqlazure\sample_blog.sql" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\sql\sqlazure\sample_brochure.sql" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\sql\sqlazure\sample_data.sql" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\sql\sqlazure\sample_learn.sql" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\sql\sqlazure\sample_testing.sql" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\template\body.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\template\css\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\template\css\template.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\template\css\template_rtl.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\template\images\ajax-loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\template\images\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\template\images\j_arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\template\images\j_arrow_down.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\template\images\j_arrow_left.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\template\images\j_button1_admin.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\template\images\j_button1_collate.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\template\images\j_button1_left.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\template\images\j_button1_next.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\template\images\j_button1_prev.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\template\images\j_button1_refresh.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\template\images\j_button1_right.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\template\images\j_button1_site.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\template\images\j_divider.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\template\images\j_header_middle.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\template\images\j_joomla_box.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\template\images\joomla.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\template\images\logo.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\template\images\spinner.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\template\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\template\index.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\template\js\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\template\js\installation.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\view\complete\html.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\view\complete\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\view\complete\tmpl\default.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\view\complete\tmpl\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\view\database\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\view\database\tmpl\default.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\view\database\tmpl\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\view\default.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\view\defaultlanguage\html.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\view\defaultlanguage\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\view\defaultlanguage\tmpl\default.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\view\defaultlanguage\tmpl\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\view\ftp\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\view\ftp\tmpl\default.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\view\ftp\tmpl\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\view\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\view\install\html.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\view\install\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\view\install\tmpl\default.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\view\install\tmpl\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\view\languages\html.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\view\languages\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\view\languages\tmpl\default.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\view\languages\tmpl\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\view\preinstall\html.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\view\preinstall\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\view\preinstall\tmpl\default.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\view\preinstall\tmpl\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\view\remove\html.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\view\remove\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\view\remove\tmpl\default.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\view\remove\tmpl\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\view\site\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\view\site\tmpl\default.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\view\site\tmpl\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\view\summary\html.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\view\summary\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\view\summary\tmpl\default.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\reliant\installation\view\summary\tmpl\index.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/mouse/logo/logo.png" afterPath="$PROJECT_DIR$/images/mouse/logo/logo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/bootstrap.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/rtl/bootstrap.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/rtl/bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/rtl/blue/bootstrap.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/rtl/blue/bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/rtl/gold/bootstrap.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/rtl/gold/bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/rtl/orange/bootstrap.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/rtl/orange/bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/rtl/salmon/bootstrap.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/rtl/salmon/bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/rtl/turquose/bootstrap.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/rtl/turquose/bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/rtl/yellow/bootstrap.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/rtl/yellow/bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/themes/blue/bootstrap.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/themes/blue/bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/themes/gold/bootstrap.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/themes/gold/bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/themes/orange/bootstrap.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/themes/orange/bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/themes/salmon/bootstrap.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/themes/salmon/bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/themes/turquose/bootstrap.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/themes/turquose/bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/themes/yellow/bootstrap.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/themes/yellow/bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/frontend-edit.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/frontend-edit.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/rtl/frontend-edit.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/rtl/frontend-edit.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/rtl/blue/frontend-edit.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/rtl/blue/frontend-edit.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/rtl/gold/frontend-edit.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/rtl/gold/frontend-edit.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/rtl/orange/frontend-edit.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/rtl/orange/frontend-edit.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/rtl/salmon/frontend-edit.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/rtl/salmon/frontend-edit.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/rtl/turquose/frontend-edit.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/rtl/turquose/frontend-edit.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/rtl/yellow/frontend-edit.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/rtl/yellow/frontend-edit.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/themes/blue/frontend-edit.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/themes/blue/frontend-edit.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/themes/gold/frontend-edit.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/themes/gold/frontend-edit.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/themes/orange/frontend-edit.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/themes/orange/frontend-edit.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/themes/salmon/frontend-edit.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/themes/salmon/frontend-edit.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/themes/turquose/frontend-edit.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/themes/turquose/frontend-edit.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/themes/yellow/frontend-edit.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/themes/yellow/frontend-edit.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/tpls/blocks/header.php" afterPath="$PROJECT_DIR$/templates/th_mouse/tpls/blocks/header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/home.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/home.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/rtl/home.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/rtl/home.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/rtl/blue/home.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/rtl/blue/home.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/rtl/gold/home.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/rtl/gold/home.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/rtl/orange/home.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/rtl/orange/home.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/rtl/salmon/home.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/rtl/salmon/home.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/rtl/turquose/home.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/rtl/turquose/home.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/rtl/yellow/home.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/rtl/yellow/home.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/themes/blue/home.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/themes/blue/home.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/themes/gold/home.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/themes/gold/home.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/themes/orange/home.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/themes/orange/home.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/themes/salmon/home.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/themes/salmon/home.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/themes/turquose/home.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/themes/turquose/home.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/themes/yellow/home.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/themes/yellow/home.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/legacy-grid.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/legacy-grid.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/rtl/legacy-grid.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/rtl/legacy-grid.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/rtl/blue/legacy-grid.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/rtl/blue/legacy-grid.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/rtl/gold/legacy-grid.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/rtl/gold/legacy-grid.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/rtl/orange/legacy-grid.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/rtl/orange/legacy-grid.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/rtl/salmon/legacy-grid.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/rtl/salmon/legacy-grid.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/rtl/turquose/legacy-grid.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/rtl/turquose/legacy-grid.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/rtl/yellow/legacy-grid.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/rtl/yellow/legacy-grid.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/themes/blue/legacy-grid.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/themes/blue/legacy-grid.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/themes/gold/legacy-grid.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/themes/gold/legacy-grid.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/themes/orange/legacy-grid.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/themes/orange/legacy-grid.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/themes/salmon/legacy-grid.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/themes/salmon/legacy-grid.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/themes/turquose/legacy-grid.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/themes/turquose/legacy-grid.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/themes/yellow/legacy-grid.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/themes/yellow/legacy-grid.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/legacy-navigation.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/legacy-navigation.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/rtl/legacy-navigation.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/rtl/legacy-navigation.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/rtl/blue/legacy-navigation.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/rtl/blue/legacy-navigation.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/rtl/gold/legacy-navigation.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/rtl/gold/legacy-navigation.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/rtl/orange/legacy-navigation.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/rtl/orange/legacy-navigation.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/rtl/salmon/legacy-navigation.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/rtl/salmon/legacy-navigation.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/rtl/turquose/legacy-navigation.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/rtl/turquose/legacy-navigation.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/rtl/yellow/legacy-navigation.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/rtl/yellow/legacy-navigation.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/themes/blue/legacy-navigation.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/themes/blue/legacy-navigation.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/themes/gold/legacy-navigation.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/themes/gold/legacy-navigation.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/themes/orange/legacy-navigation.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/themes/orange/legacy-navigation.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/themes/salmon/legacy-navigation.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/themes/salmon/legacy-navigation.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/themes/turquose/legacy-navigation.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/themes/turquose/legacy-navigation.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/themes/yellow/legacy-navigation.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/themes/yellow/legacy-navigation.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/megamenu.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/megamenu.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/rtl/megamenu.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/rtl/megamenu.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/rtl/blue/megamenu.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/rtl/blue/megamenu.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/rtl/gold/megamenu.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/rtl/gold/megamenu.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/rtl/orange/megamenu.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/rtl/orange/megamenu.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/rtl/salmon/megamenu.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/rtl/salmon/megamenu.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/rtl/turquose/megamenu.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/rtl/turquose/megamenu.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/rtl/yellow/megamenu.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/rtl/yellow/megamenu.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/themes/blue/megamenu.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/themes/blue/megamenu.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/themes/gold/megamenu.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/themes/gold/megamenu.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/themes/orange/megamenu.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/themes/orange/megamenu.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/themes/salmon/megamenu.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/themes/salmon/megamenu.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/themes/turquose/megamenu.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/themes/turquose/megamenu.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/themes/yellow/megamenu.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/themes/yellow/megamenu.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/less/navbar.less" afterPath="$PROJECT_DIR$/templates/th_mouse/less/navbar.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/off-canvas.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/off-canvas.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/rtl/off-canvas.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/rtl/off-canvas.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/rtl/blue/off-canvas.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/rtl/blue/off-canvas.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/rtl/gold/off-canvas.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/rtl/gold/off-canvas.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/rtl/orange/off-canvas.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/rtl/orange/off-canvas.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/rtl/salmon/off-canvas.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/rtl/salmon/off-canvas.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/rtl/turquose/off-canvas.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/rtl/turquose/off-canvas.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/rtl/yellow/off-canvas.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/rtl/yellow/off-canvas.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/themes/blue/off-canvas.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/themes/blue/off-canvas.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/themes/gold/off-canvas.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/themes/gold/off-canvas.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/themes/orange/off-canvas.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/themes/orange/off-canvas.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/themes/salmon/off-canvas.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/themes/salmon/off-canvas.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/themes/turquose/off-canvas.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/themes/turquose/off-canvas.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/themes/yellow/off-canvas.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/themes/yellow/off-canvas.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/t3-assets/dev/blue/plugins.system.t3.base-bs3.less.t3.less.css" afterPath="$PROJECT_DIR$/t3-assets/dev/blue/plugins.system.t3.base-bs3.less.t3.less.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/t3-assets/dev/yellow/plugins.system.t3.base-bs3.less.t3.less.css" afterPath="$PROJECT_DIR$/t3-assets/dev/yellow/plugins.system.t3.base-bs3.less.t3.less.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/less/style.less" afterPath="$PROJECT_DIR$/templates/th_mouse/less/style.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/template.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/template.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/rtl/template.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/rtl/template.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/rtl/blue/template.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/rtl/blue/template.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/rtl/gold/template.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/rtl/gold/template.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/rtl/orange/template.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/rtl/orange/template.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/rtl/salmon/template.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/rtl/salmon/template.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/rtl/turquose/template.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/rtl/turquose/template.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/rtl/yellow/template.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/rtl/yellow/template.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/themes/blue/template.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/themes/blue/template.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/themes/gold/template.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/themes/gold/template.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/themes/orange/template.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/themes/orange/template.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/themes/salmon/template.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/themes/salmon/template.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/themes/turquose/template.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/themes/turquose/template.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/themes/yellow/template.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/themes/yellow/template.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/t3-assets/dev/blue/templates.th_mouse.less.bootstrap.less.css" afterPath="$PROJECT_DIR$/t3-assets/dev/blue/templates.th_mouse.less.bootstrap.less.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/t3-assets/dev/yellow/templates.th_mouse.less.bootstrap.less.css" afterPath="$PROJECT_DIR$/t3-assets/dev/yellow/templates.th_mouse.less.bootstrap.less.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/t3-assets/dev/blue/templates.th_mouse.less.core.less.css" afterPath="$PROJECT_DIR$/t3-assets/dev/blue/templates.th_mouse.less.core.less.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/t3-assets/dev/yellow/templates.th_mouse.less.core.less.css" afterPath="$PROJECT_DIR$/t3-assets/dev/yellow/templates.th_mouse.less.core.less.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/t3-assets/dev/yellow/templates.th_mouse.less.home.less.css" afterPath="$PROJECT_DIR$/t3-assets/dev/yellow/templates.th_mouse.less.home.less.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/t3-assets/dev/blue/templates.th_mouse.less.joomla.less.css" afterPath="$PROJECT_DIR$/t3-assets/dev/blue/templates.th_mouse.less.joomla.less.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/t3-assets/dev/yellow/templates.th_mouse.less.joomla.less.css" afterPath="$PROJECT_DIR$/t3-assets/dev/yellow/templates.th_mouse.less.joomla.less.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/t3-assets/dev/blue/templates.th_mouse.less.megamenu.less.css" afterPath="$PROJECT_DIR$/t3-assets/dev/blue/templates.th_mouse.less.megamenu.less.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/t3-assets/dev/yellow/templates.th_mouse.less.megamenu.less.css" afterPath="$PROJECT_DIR$/t3-assets/dev/yellow/templates.th_mouse.less.megamenu.less.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/t3-assets/dev/blue/templates.th_mouse.less.modules.less.css" afterPath="$PROJECT_DIR$/t3-assets/dev/blue/templates.th_mouse.less.modules.less.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/t3-assets/dev/yellow/templates.th_mouse.less.modules.less.css" afterPath="$PROJECT_DIR$/t3-assets/dev/yellow/templates.th_mouse.less.modules.less.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/t3-assets/dev/blue/templates.th_mouse.less.navbar.less.css" afterPath="$PROJECT_DIR$/t3-assets/dev/blue/templates.th_mouse.less.navbar.less.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/t3-assets/dev/yellow/templates.th_mouse.less.navbar.less.css" afterPath="$PROJECT_DIR$/t3-assets/dev/yellow/templates.th_mouse.less.navbar.less.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/t3-assets/dev/blue/templates.th_mouse.less.navigation.less.css" afterPath="$PROJECT_DIR$/t3-assets/dev/blue/templates.th_mouse.less.navigation.less.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/t3-assets/dev/yellow/templates.th_mouse.less.navigation.less.css" afterPath="$PROJECT_DIR$/t3-assets/dev/yellow/templates.th_mouse.less.navigation.less.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/t3-assets/dev/blue/templates.th_mouse.less.off-canvas.less.css" afterPath="$PROJECT_DIR$/t3-assets/dev/blue/templates.th_mouse.less.off-canvas.less.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/t3-assets/dev/yellow/templates.th_mouse.less.off-canvas.less.css" afterPath="$PROJECT_DIR$/t3-assets/dev/yellow/templates.th_mouse.less.off-canvas.less.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/t3-assets/dev/blue/templates.th_mouse.less.style.less.css" afterPath="$PROJECT_DIR$/t3-assets/dev/blue/templates.th_mouse.less.style.less.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/t3-assets/dev/yellow/templates.th_mouse.less.style.less.css" afterPath="$PROJECT_DIR$/t3-assets/dev/yellow/templates.th_mouse.less.style.less.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/t3-assets/dev/blue/templates.th_mouse.less.themes.blue.template.less.css" afterPath="$PROJECT_DIR$/t3-assets/dev/blue/templates.th_mouse.less.themes.blue.template.less.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/t3-assets/dev/yellow/templates.th_mouse.less.themes.yellow.template.less.css" afterPath="$PROJECT_DIR$/t3-assets/dev/yellow/templates.th_mouse.less.themes.yellow.template.less.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/t3-assets/dev/blue/templates.th_mouse.less.typography.less.css" afterPath="$PROJECT_DIR$/t3-assets/dev/blue/templates.th_mouse.less.typography.less.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/t3-assets/dev/yellow/templates.th_mouse.less.typography.less.css" afterPath="$PROJECT_DIR$/t3-assets/dev/yellow/templates.th_mouse.less.typography.less.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/less/variables.less" afterPath="$PROJECT_DIR$/templates/th_mouse/less/variables.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/windows.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/windows.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/rtl/windows.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/rtl/windows.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/rtl/blue/windows.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/rtl/blue/windows.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/rtl/gold/windows.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/rtl/gold/windows.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/rtl/orange/windows.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/rtl/orange/windows.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/rtl/salmon/windows.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/rtl/salmon/windows.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/rtl/turquose/windows.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/rtl/turquose/windows.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/rtl/yellow/windows.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/rtl/yellow/windows.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/themes/blue/windows.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/themes/blue/windows.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/themes/gold/windows.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/themes/gold/windows.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/themes/orange/windows.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/themes/orange/windows.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/themes/salmon/windows.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/themes/salmon/windows.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/themes/turquose/windows.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/themes/turquose/windows.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/th_mouse/css/themes/yellow/windows.css" afterPath="$PROJECT_DIR$/templates/th_mouse/css/themes/yellow/windows.css" />
+    </list>
+    <ignored path="reliant.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="reliant" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="template.less" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/th_mouse/less/themes/yellow/template.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="49" column="0" selection-start="1168" selection-end="1168" vertical-scroll-proportion="-1.5686275" vertical-offset="753" max-vertical-offset="7174">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="variables.less" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/th_mouse/less/variables.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="718" column="48" selection-start="22087" selection-end="22087" vertical-scroll-proportion="1.9019607" vertical-offset="12303" max-vertical-offset="13158">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="template.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/th_mouse/css/themes/yellow/template.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="451" column="7" selection-start="6906" selection-end="6906" vertical-scroll-proportion="0.0" vertical-offset="7344" max-vertical-offset="68680">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="templates.th_mouse.less.style.less.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/t3-assets/dev/yellow/templates.th_mouse.less.style.less.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="508" column="44" selection-start="10723" selection-end="10723" vertical-scroll-proportion="0.3778802" vertical-offset="8472" max-vertical-offset="31654">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="templates.th_mouse.less.navbar.less.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/t3-assets/dev/yellow/templates.th_mouse.less.navbar.less.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="29" column="13" selection-start="926" selection-end="926" vertical-scroll-proportion="-12.413794" vertical-offset="133" max-vertical-offset="2890">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="navbar.less" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/th_mouse/less/navbar.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="108" column="6" selection-start="2294" selection-end="2294" vertical-scroll-proportion="-5.0" vertical-offset="1581" max-vertical-offset="6205">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.less" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/th_mouse/less/style.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="643" column="10" selection-start="9982" selection-end="9982" vertical-scroll-proportion="-5.627451" vertical-offset="10644" max-vertical-offset="42942">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="variables.less" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/th_mouse/less/themes/yellow/variables.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="663">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/configuration.php" />
+        <option value="$PROJECT_DIR$/templates/th_mouse/less/variables.less" />
+        <option value="$PROJECT_DIR$/templates/th_mouse/tpls/blocks/header.php" />
+        <option value="$PROJECT_DIR$/templates/th_mouse/less/navbar.less" />
+        <option value="$PROJECT_DIR$/t3-assets/dev/yellow/templates.th_mouse.less.navbar.less.css" />
+        <option value="$PROJECT_DIR$/t3-assets/dev/yellow/templates.th_mouse.less.style.less.css" />
+        <option value="$PROJECT_DIR$/templates/th_mouse/less/style.less" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true">
+    <include_path>
+      <path value="." />
+      <path value="C:\xampp\php\PEAR" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1616" />
+    <option name="height" value="876" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reliant" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reliant" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reliant" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reliant" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reliant" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reliant" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reliant" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="th_mouse" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reliant" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reliant" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="th_mouse" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="less" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reliant" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reliant" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="t3-assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yellow" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reliant" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reliant" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="t3-assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="options.lastSelected" value="appearance" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="FullScreen" value="false" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="name" value="Dart" />
+      <option name="saveOutputToFile" value="false" />
+      <option name="showConsoleOnStdErr" value="false" />
+      <option name="showConsoleOnStdOut" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <browser start="false" url="" with-js-debugger="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server" server_id="333587af-3344-4d8f-9583-3bd74e0fb7d5" server_name="reliant">
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="344bd91a-4e14-4f22-9bd9-a92b614298aa" name="Default" comment="" />
+      <created>1396622797985</created>
+      <updated>1396622797985</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32885906" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885906" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2596401" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/configuration.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="24" selection-start="483" selection-end="483" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1122">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configuration.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="24" selection-start="483" selection-end="483" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1320">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/th_mouse/less/variables.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="97" column="31" selection-start="3028" selection-end="3028" vertical-scroll-proportion="0.0" vertical-offset="1940" max-vertical-offset="15480">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/th_mouse/tpls/blocks/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="69" column="0" selection-start="1821" selection-end="1821" vertical-scroll-proportion="0.0" vertical-offset="400" max-vertical-offset="1640" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/th_mouse/tpls/blocks/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="69" column="0" selection-start="1821" selection-end="1821" vertical-scroll-proportion="1.9939578" vertical-offset="60" max-vertical-offset="1640" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configuration.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="24" selection-start="483" selection-end="483" vertical-scroll-proportion="-0.0" vertical-offset="255" max-vertical-offset="1122">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/th_mouse/less/themes/yellow/variables.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/th_mouse/css/themes/yellow/template.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="451" column="7" selection-start="6906" selection-end="6906" vertical-scroll-proportion="0.0" vertical-offset="7344" max-vertical-offset="68680">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/th_mouse/less/themes/yellow/template.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="0" selection-start="1168" selection-end="1168" vertical-scroll-proportion="-1.5686275" vertical-offset="753" max-vertical-offset="7174">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/th_mouse/less/variables.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="718" column="48" selection-start="22087" selection-end="22087" vertical-scroll-proportion="1.9019607" vertical-offset="12303" max-vertical-offset="13158">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/th_mouse/less/navbar.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="108" column="6" selection-start="2294" selection-end="2294" vertical-scroll-proportion="-5.0" vertical-offset="1581" max-vertical-offset="6205">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/th_mouse/less/themes/yellow/variables-custom.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="716">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/t3-assets/dev/yellow/templates.th_mouse.less.navbar.less.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="13" selection-start="926" selection-end="926" vertical-scroll-proportion="-12.413794" vertical-offset="133" max-vertical-offset="2890">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/th_mouse/less/style.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="643" column="10" selection-start="9982" selection-end="9982" vertical-scroll-proportion="-5.627451" vertical-offset="10644" max-vertical-offset="42942">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/t3-assets/dev/yellow/templates.th_mouse.less.style.less.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="508" column="44" selection-start="10723" selection-end="10723" vertical-scroll-proportion="0.3778802" vertical-offset="8472" max-vertical-offset="31654">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+

@@ -20,7 +20,7 @@
   top: 0;
   left: 0;
   z-index: 99999999;
-  background-color: #a1d1d2;
+  background-color: #037096;
 }
 .spinner {
   width: 50px;
@@ -42,8 +42,8 @@
   animation-delay: -1.1s;
 }
 .spinner .rect3 {
-  -webkit-animation-delay: -1s;
-  animation-delay: -1s;
+  -webkit-animation-delay: -1.0s;
+  animation-delay: -1.0s;
 }
 .spinner .rect4 {
   -webkit-animation-delay: -0.9s;
@@ -236,7 +236,7 @@
   padding-bottom: 29px;
 }
 .navbar-nav li.open {
-  color: #a1d1d2;
+  color: #037096;
 }
 .navbar-nav li.active a {
   background: #fff;
@@ -449,15 +449,8 @@ iframe {
 .header-wrapper .container {
   position: relative;
 }
-.header-wrapper .th-wrapper {
-  width: 100%;
-  position: absolute;
-  top: 40px;
-  z-index: 30;
-}
 .header-wrapper .th-navbar {
   position: relative;
-  z-index: 2;
 }
 .header-wrapper .th-navbar::before {
   position: absolute;
@@ -504,7 +497,7 @@ iframe {
   z-index: 9999;
   left: 0;
   padding: 0 10%;
-  background: #a1d1d2;
+  background: #037096;
   -webkit-transition: top 500ms;
   transition: top 500ms;
   -webkit-backface-visibility: hidden;
@@ -535,6 +528,9 @@ iframe {
   margin: 0;
   width: 30px;
   height: 30px;
+}
+.header-wrapper {
+  background: #037096;
 }
 .gkIsWrapper-gk_musicstate {
   z-index: 0;
@@ -741,7 +737,7 @@ a.more:hover::before {
   font-weight: 600;
   color: #2d2d2d !important;
   padding: 15px 40px;
-  background: #a1d1d2;
+  background: #037096;
   text-decoration: none;
   text-transform: uppercase;
   position: relative;
@@ -1295,7 +1291,7 @@ ul.sigFreeClassic li.sigFreeThumb .sigFreeLinkOuterWrapper .sigFreeLinkWrapper {
 }
 #map::before {
   content: " ";
-  background: url(/www/joomla/mouse/j25/templates/th_mouse/images/mouse/map-top-corner.jpg) no-repeat;
+  background: url(/reliant/templates/th_mouse/images/mouse/map-top-corner.jpg) no-repeat;
   width: 30px;
   height: 30px;
   position: absolute;
@@ -1305,7 +1301,7 @@ ul.sigFreeClassic li.sigFreeThumb .sigFreeLinkOuterWrapper .sigFreeLinkWrapper {
 }
 #map::after {
   content: " ";
-  background: url(/www/joomla/mouse/j25/templates/th_mouse/images/mouse/shadow.png) no-repeat center;
+  background: url(/reliant/templates/th_mouse/images/mouse/shadow.png) no-repeat center;
   width: 100%;
   height: 30px;
   position: absolute;

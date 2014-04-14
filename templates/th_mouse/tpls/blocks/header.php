@@ -25,15 +25,17 @@ if (!$sitename) {
 
       <div class="row th-navbar">
 
+
+
         <div class="col-sm-3 col-xs-9 ">
 
-         <!-- share -->
-         <?php if ($this->countModules('share')) { ?>
-         <div class="share">
-          <jdoc:include type="modules" name="<?php $this->_p('share') ?>" style="raw" />
-        </div>
-        <?php } ?>
-        <!-- //share -->
+            <div class="logo-<?php echo $logotype ?>">
+                <a href="<?php echo JURI::base(true) ?>" title="<?php echo strip_tags($sitename) ?>">
+                    <?php if($logotype == 'image'): ?>
+                        <img class="logo-img" src="<?php echo JURI::base(true) . '/' . $logoimage ?>" alt="<?php echo strip_tags($sitename) ?>" />
+                    <?php endif ?>
+                </a>
+            </div>
 
         <!-- LANGUAGE SWITCHER -->
         <?php if ($this->countModules('languageswitcherload')) { ?>
@@ -65,22 +67,6 @@ if (!$sitename) {
     </div>
 
 
-    <div class="row">
-
-
-      <!-- LOGO -->
-      <div class="col-xs-12 col-sm-3 col-md-2 logo-wrapper">
-        <div class="logo-<?php echo $logotype ?>">
-          <a href="<?php echo JURI::base(true) ?>" title="<?php echo strip_tags($sitename) ?>">
-            <?php if($logotype == 'image'): ?>
-            <img class="logo-img" src="<?php echo JURI::base(true) . '/' . $logoimage ?>" alt="<?php echo strip_tags($sitename) ?>" />
-          <?php endif ?>
-        </a>
-      </div>
-    </div>
-    <!-- //LOGO -->
-
-  </div>
 
 </div>
 

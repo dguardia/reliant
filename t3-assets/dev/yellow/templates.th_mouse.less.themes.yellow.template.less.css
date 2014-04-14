@@ -1,4 +1,5 @@
 
+
 /** 
  *------------------------------------------------------------------------------
  * @package       T3 Framework for Joomla!
@@ -22,7 +23,7 @@
   background: #037096;
 }
 .header-wrapper .th-navbar::before {
-  background: rgba(3,112,150, 0.42);
+  background: rgba(3, 112, 150, 0.42);
 }
 .header-wrapper .logo-wrapper {
   background: #037096;
@@ -31,7 +32,7 @@
   background: #037096;
 }
 .header-wrapper .logo-wrapper::after {
-  background: rgba(3,112,150, 0.42);
+  background: rgba(3, 112, 150, 0.42);
 }
 .header-wrapper .share .sp_social ul li a {
   color: #2e2e2e;
@@ -180,12 +181,12 @@ input.button:hover {
   color: #2d2d2d;
 }
 .tp-leftarrow.default {
-  background: url(/www/joomla/mouse/j3/templates/th_mouse/images/themes/yellow/slider-arrow.png) bottom left !important;
+  background: url(/reliant/templates/th_mouse/images/themes/yellow/slider-arrow.png) bottom left !important;
   width: 60px !important;
   height: 60px !important;
 }
 .tp-rightarrow.default {
-  background: url(/www/joomla/mouse/j3/templates/th_mouse/images/themes/yellow/slider-arrow.png) bottom right !important;
+  background: url(/reliant/templates/th_mouse/images/themes/yellow/slider-arrow.png) bottom right !important;
   width: 60px !important;
   height: 60px !important;
 }
@@ -195,4 +196,5 @@ input.button:hover {
 .tp-rightarrow:hover {
   background-position: top right !important;
 }
+
 

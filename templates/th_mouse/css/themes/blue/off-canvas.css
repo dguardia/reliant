@@ -106,7 +106,7 @@ html[dir="ltr"] .off-canvas-right.t3-off-canvas {
 }
 .t3-off-canvas .t3-off-canvas-body a:hover,
 .t3-off-canvas .t3-off-canvas-body a:focus {
-  color: #a1d1d2;
+  color: #037096;
 }
 .t3-off-canvas .t3-off-canvas-body a:focus {
   outline: thin dotted;
@@ -643,7 +643,7 @@ html[dir="ltr"] .off-canvas-right.old-ie .t3-off-canvas {
 }
 .t3-off-canvas .t3-off-canvas-body a:hover,
 .t3-off-canvas .t3-off-canvas-body a:focus {
-  color: #a1d1d2;
+  color: #037096;
   text-decoration: none;
 }
 .t3-off-canvas .t3-off-canvas-body a:focus {

@@ -531,7 +531,7 @@ div.finder {
   padding: 10px 20px;
 }
 .article-content .pagination li:hover {
-  background: #a1d1d2;
+  background: #037096;
   color: #fff;
 }
 .article-content .pagination li a {
@@ -577,7 +577,7 @@ div.finder {
 #article-index ul > .active > a,
 .article-index ul > .active > a {
   border: 0;
-  background: #a1d1d2;
+  background: #037096;
   color: #ffffff;
 }
 #article-index ul > .active > a:hover,
@@ -587,7 +587,7 @@ div.finder {
 #article-index ul > .active > a:focus,
 .article-index ul > .active > a:focus {
   border: 0;
-  background: #a1d1d2;
+  background: #037096;
   color: #ffffff;
 }
 .pagenav {
