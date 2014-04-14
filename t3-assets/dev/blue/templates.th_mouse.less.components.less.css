@@ -13,8 +13,8 @@
  *------------------------------------------------------------------------------
  */
 .page-header {
-  padding-bottom: 13.5px;
-  margin: 0 0 29px;
+  padding-bottom: 12px;
+  margin: 0 0 26px;
   border-bottom: 1px solid #eeeeee;
 }
 .page-title,
@@ -24,7 +24,7 @@
 }
 .page-subheader {
   border-bottom: 1px solid #eeeeee;
-  margin: 0 0 29px;
+  margin: 0 0 26px;
 }
 .page-subheader:before,
 .page-subheader:after {
@@ -40,11 +40,11 @@
   margin: 0;
 }
 .page-header + .page-subheader {
-  margin-top: -29px;
+  margin-top: -26px;
 }
 .article-title,
 .article-header h1 {
-  margin: 0 0 29px 0;
+  margin: 0 0 26px 0;
 }
 .item-title {
   font-weight: bold;
@@ -61,7 +61,7 @@
   border-radius: 6px;
 }
 .masthead {
-  padding: 58px 0;
+  padding: 52px 0;
   text-align: center;
 }
 .masthead p:last-child {
@@ -69,18 +69,18 @@
 }
 @media screen and (min-width: 768px) {
   .masthead {
-    padding: 116px 0;
+    padding: 104px 0;
   }
   .masthead h1 {
-    font-size: 126px;
+    font-size: 112px;
   }
   .masthead p {
-    font-size: 36px;
+    font-size: 32px;
   }
   .masthead .btn-lg {
-    margin-top: 29px;
+    margin-top: 26px;
     padding: 18px 42px;
-    font-size: 27px;
+    font-size: 24px;
   }
 }
 .label:empty {

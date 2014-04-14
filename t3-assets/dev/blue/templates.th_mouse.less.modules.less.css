@@ -15,11 +15,11 @@
 .t3-module {
   background: transparent;
   color: inherit;
-  margin-bottom: 29px;
+  margin-bottom: 26px;
 }
 @media screen and (min-width: 768px) {
   .t3-module {
-    margin-bottom: 58px;
+    margin-bottom: 52px;
   }
 }
 .t3-module .module-inner {
@@ -28,13 +28,13 @@
 .module-title {
   background: transparent;
   color: inherit;
-  font-size: 23px;
-  margin: 0 0 14.5px 0;
+  font-size: 20px;
+  margin: 0 0 13px 0;
   padding: 0;
 }
 @media screen and (min-width: 768px) {
   .module-title {
-    margin-bottom: 29px;
+    margin-bottom: 26px;
   }
 }
 .module-ct {
@@ -80,7 +80,7 @@
   width: 100%;
 }
 #login-form ul.unstyled {
-  margin-top: 29px;
+  margin-top: 26px;
   padding-left: 20px;
 }
 #login-form #form-login-remember label {
@@ -91,8 +91,8 @@
 }
 .bannerfooter {
   border-top: 1px solid #eeeeee;
-  font-size: 16px;
-  padding-top: 14.5px;
+  font-size: 14px;
+  padding-top: 13px;
   text-align: right;
 }
 .categories-module,
@@ -106,7 +106,7 @@ ul.categories-module li,
 .category-module li,
 ul.category-module li {
   list-style: none;
-  padding: 14.5px 0;
+  padding: 13px 0;
   border-top: 1px solid #eeeeee;
 }
 .categories-module li:first-child,
@@ -119,7 +119,7 @@ ul.category-module li:first-child {
 ul.categories-module h4,
 .category-module h4,
 ul.category-module h4 {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: normal;
   margin: 0;
 }
@@ -134,7 +134,7 @@ ul.category-module h4 {
 .feed ul.newsfeed .feed-link,
 .feed .newsfeed h5.feed-link,
 .feed ul.newsfeed h5.feed-link {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: normal;
   margin: 0;
 }

@@ -16,18 +16,18 @@ body {
   font-weight: 300;
 }
 p {
-  margin: 0 0 14.5px;
+  margin: 0 0 13px;
   -webkit-font-smoothing: subpixel-antialiased;
 }
 .lead {
-  margin-bottom: 29px;
-  font-size: 20.7px;
+  margin-bottom: 26px;
+  font-size: 18.4px;
   font-weight: 200;
   line-height: 1.4;
 }
 @media (min-width: 768px) {
   .lead {
-    font-size: 27px;
+    font-size: 24px;
   }
 }
 small {
@@ -118,57 +118,57 @@ h2 {
 h1,
 h2,
 h3 {
-  margin-top: 29px;
-  margin-bottom: 19.33333333333333px;
+  margin-top: 26px;
+  margin-bottom: 17.33333333333333px;
 }
 h4,
 h5,
 h6 {
-  margin-top: 14.5px;
-  margin-bottom: 14.5px;
+  margin-top: 13px;
+  margin-bottom: 13px;
 }
 h1,
 .h1 {
-  font-size: 59px;
+  font-size: 53px;
 }
 h2,
 .h2 {
-  font-size: 47px;
+  font-size: 42px;
 }
 h3,
 .h3 {
-  font-size: 24px;
+  font-size: 22px;
 }
 h4,
 .h4 {
-  font-size: 23px;
+  font-size: 20px;
 }
 h5,
 .h5 {
-  font-size: 18px;
+  font-size: 16px;
 }
 h6,
 .h6 {
-  font-size: 16px;
+  font-size: 14px;
 }
 h1 small,
 .h1 small {
-  font-size: 31px;
+  font-size: 28px;
 }
 h2 small,
 .h2 small {
-  font-size: 23px;
+  font-size: 20px;
 }
 h3 small,
 .h3 small,
 h4 small,
 .h4 small {
-  font-size: 18px;
+  font-size: 16px;
 }
 ul,
 ol {
   margin-top: 0;
-  margin-bottom: 14.5px;
+  margin-bottom: 13px;
 }
 ul ul,
 ol ul,
@@ -190,7 +190,7 @@ ol ol {
   padding-right: 5px;
 }
 dl {
-  margin-bottom: 29px;
+  margin-bottom: 26px;
 }
 dt,
 dd {
@@ -234,12 +234,12 @@ abbr.initialism {
   text-transform: uppercase;
 }
 blockquote {
-  padding: 14.5px 29px;
-  margin: 0 0 29px;
+  padding: 13px 26px;
+  margin: 0 0 26px;
   border-left: 5px solid #eeeeee;
 }
 blockquote p {
-  font-size: 22.5px;
+  font-size: 20px;
   font-weight: 300;
   line-height: 1.25;
 }
@@ -278,7 +278,7 @@ blockquote:after {
 }
 address {
   display: block;
-  margin-bottom: 29px;
+  margin-bottom: 26px;
   font-style: normal;
   line-height: 1.6666666;
 }
@@ -292,7 +292,7 @@ samp {
   text-align: center;
 }
 .features-list {
-  margin-top: 87px;
+  margin-top: 78px;
   /* Features Rows */
 }
 .features-list .page-header {
@@ -300,22 +300,22 @@ samp {
   text-align: center;
 }
 .features-list .page-header h1 {
-  font-size: 50px;
+  font-size: 48px;
 }
 .features-list .feature-row {
   overflow: hidden;
   min-height: 200px;
   color: #696f72;
   border-top: 1px solid #e0e2e3;
-  padding: 87px 0 0;
+  padding: 78px 0 0;
   text-align: center;
 }
 .features-list .feature-row:last-child {
   border-bottom: 1px solid #e0e2e3;
-  margin-bottom: 87px;
+  margin-bottom: 78px;
 }
 .features-list .feature-row h3 {
-  font-size: 36px;
+  font-size: 32px;
 }
 .features-list .feature-row div:first-child {
   padding-left: 0;
@@ -330,10 +330,10 @@ samp {
   float: right;
 }
 .jumbotron h2 {
-  font-size: 50px;
+  font-size: 48px;
 }
 .jumbotron iframe {
-  margin-top: 29px;
+  margin-top: 26px;
 }
 .center-title {
   text-align: center;

@@ -13,20 +13,20 @@
  *------------------------------------------------------------------------------
  */
 .items-leading .leading {
-  margin-bottom: 58px;
+  margin-bottom: 52px;
 }
 .items-row .item {
-  margin-bottom: 58px;
+  margin-bottom: 52px;
 }
 .divider-vertical {
-  margin: 0 0 58px;
+  margin: 0 0 52px;
   border: 0;
   border-top: 1px solid #eeeeee;
 }
 .article-aside {
   color: #999999;
-  font-size: 17px;
-  margin-bottom: 29px;
+  font-size: 15px;
+  margin-bottom: 26px;
 }
 .article-info {
   margin: 0;
@@ -46,8 +46,8 @@
 }
 .article-footer {
   color: #999999;
-  font-size: 16px;
-  margin-bottom: 29px;
+  font-size: 14px;
+  margin-bottom: 26px;
 }
 .article-intro img,
 .article-content img {
@@ -61,7 +61,7 @@
 .article-content .img_caption.left,
 .article-intro .pull-left.item-image,
 .article-content .pull-left.item-image {
-  margin: 0 29px 29px 0;
+  margin: 0 26px 26px 0;
 }
 .article-intro img[align=right],
 .article-content img[align=right],
@@ -69,7 +69,7 @@
 .article-content .img_caption.right,
 .article-intro .pull-right.item-image,
 .article-content .pull-right.item-image {
-  margin: 0 0 29px 29px;
+  margin: 0 0 26px 26px;
 }
 .img-intro-none,
 .img-intro-left,
@@ -87,16 +87,16 @@
 .img-fulltext-left,
 .img-fulltext-right,
 .img_caption {
-  margin-bottom: 29px;
+  margin-bottom: 26px;
   max-width: 100%;
 }
 .img-fulltext-left {
   float: left;
-  margin-right: 29px;
+  margin-right: 26px;
 }
 .img-fulltext-right {
   float: right;
-  margin-left: 29px;
+  margin-left: 26px;
 }
 .img-intro-none img,
 .img-intro-left img,
@@ -112,7 +112,7 @@
 .img_caption p.img_caption {
   background: #eeeeee;
   color: #555555;
-  font-size: 16px;
+  font-size: 14px;
   width: 100%;
   margin: 0;
   padding: 5px;
@@ -170,7 +170,7 @@ article aside .btn-group > .dropdown-toggle .caret {
 .list-striped,
 .row-striped {
   list-style: none;
-  line-height: 29px;
+  line-height: 26px;
   text-align: left;
   vertical-align: middle;
   border-top: 1px solid #dddddd;
@@ -259,7 +259,7 @@ article aside .btn-group > .dropdown-toggle .caret {
   resize: none;
 }
 .com_mailto body {
-  padding: 14.5px;
+  padding: 13px;
 }
 .com_mailto .t3-mainbody {
   padding-top: 0;
@@ -339,8 +339,8 @@ article aside .btn-group > .dropdown-toggle .caret {
 .remind .form-validate p {
   background: #eeeeee;
   border: 1px solid #eeeeee;
-  margin-bottom: 29px;
-  padding: 14.5px 29px;
+  margin-bottom: 26px;
+  padding: 13px 26px;
   border-radius: 4px;
 }
 .reset .form-validate fieldset dl,
@@ -387,10 +387,10 @@ article aside .btn-group > .dropdown-toggle .caret {
   clear: both;
 }
 #searchForm fieldset {
-  margin: 29px 0;
+  margin: 26px 0;
 }
 #searchForm legend {
-  margin-bottom: 14.5px;
+  margin-bottom: 13px;
 }
 #searchForm select {
   width: auto;
@@ -399,7 +399,7 @@ article aside .btn-group > .dropdown-toggle .caret {
   padding-left: 5px;
 }
 #searchForm .form-limit {
-  margin-top: 29px;
+  margin-top: 26px;
 }
 #searchForm .form-limit .counter {
   margin-top: 0;
@@ -413,14 +413,14 @@ article aside .btn-group > .dropdown-toggle .caret {
   }
 }
 .search-results {
-  margin-top: 29px;
+  margin-top: 26px;
 }
 .search-results .result-title {
-  font-size: 20px;
-  margin-top: 29px;
+  font-size: 18px;
+  margin-top: 26px;
 }
 .search-results .result-category {
-  font-size: 16px;
+  font-size: 14px;
   color: #999999;
 }
 .search-results .result-text {
@@ -428,11 +428,11 @@ article aside .btn-group > .dropdown-toggle .caret {
   margin-bottom: 5px;
 }
 .search-results .result-created {
-  font-size: 16px;
+  font-size: 14px;
   color: #999999;
 }
 div.finder {
-  margin-bottom: 29px;
+  margin-bottom: 26px;
 }
 .contact .accordion-heading .accordion-toggle {
   font-weight: bold;
@@ -448,7 +448,7 @@ div.finder {
   overflow: hidden;
 }
 .categories-list {
-  margin-bottom: 29px;
+  margin-bottom: 26px;
 }
 .category-item:before,
 .category-item:after {
@@ -460,9 +460,9 @@ div.finder {
 }
 .category-item .page-header {
   line-height: normal;
-  padding: 14.5px 5px;
+  padding: 13px 5px;
   margin: 0;
-  font-size: 23px;
+  font-size: 20px;
   font-weight: normal;
 }
 .category-item .category-item {
@@ -470,25 +470,25 @@ div.finder {
   margin-left: 30px;
 }
 .category-item .category-item .page-header {
-  font-size: 18px;
+  font-size: 16px;
 }
 .cat-children .page-header {
   line-height: normal;
-  padding: 14.5px 5px;
+  padding: 13px 5px;
   margin: 0;
-  font-size: 23px;
+  font-size: 20px;
   font-weight: normal;
 }
 .newsfeed-category > h2,
 .newsfeed > h2 {
   border-bottom: 1px solid #eeeeee;
-  padding-bottom: 29px;
-  margin-bottom: 29px;
+  padding-bottom: 26px;
+  margin-bottom: 26px;
   margin-top: 0;
 }
 .newsfeed-category .category-desc,
 .newsfeed .category-desc {
-  margin-bottom: 29px;
+  margin-bottom: 26px;
 }
 .newsfeed-category .category li:before,
 .newsfeed .category li:before,
@@ -503,20 +503,20 @@ div.finder {
 }
 .newsfeed > h2 {
   border-bottom: 1px solid #eeeeee;
-  padding-bottom: 29px;
-  margin-bottom: 29px;
+  padding-bottom: 26px;
+  margin-bottom: 26px;
   margin-top: 0;
 }
 .newsfeed .feed-description {
-  margin-bottom: 29px;
-  font-size: 20px;
+  margin-bottom: 26px;
+  font-size: 18px;
 }
 .newsfeed .feed-item-description .feed-description {
-  font-size: 18px;
+  font-size: 16px;
 }
 .newsfeed ol li > a {
   font-weight: bold;
-  font-size: 20px;
+  font-size: 18px;
 }
 .article-content .pagination ul {
   padding: 0;
@@ -548,12 +548,12 @@ div.finder {
   color: #fff;
 }
 .pagenavcounter {
-  margin: 0 0 29px;
+  margin: 0 0 26px;
   font-weight: bold;
 }
 #article-index,
 .article-index {
-  margin: 0 0 29px 0;
+  margin: 0 0 26px 0;
   padding: 10px;
 }
 #article-index ul,
@@ -605,7 +605,7 @@ div.finder {
   margin-right: 10px;
 }
 .pagenav li > a {
-  padding: 14.5px 29px;
+  padding: 13px 26px;
   line-height: normal;
   border: 1px solid #dddddd;
   border-radius: 4px;
@@ -616,7 +616,7 @@ div.finder {
   background-color: #eeeeee;
 }
 .items-more h3 {
-  margin: 0 0 29px;
+  margin: 0 0 26px;
 }
 .items-more .nav > li {
   border-top: 1px solid #eeeeee;
@@ -629,10 +629,10 @@ div.finder {
   margin: 10px 0;
 }
 .filters {
-  margin: 14.5px 0 5px;
+  margin: 13px 0 5px;
 }
 .display-limit {
-  margin: 14.5px 0 5px;
+  margin: 13px 0 5px;
 }
 .filters .display-limit {
   float: right;
@@ -705,7 +705,7 @@ div.finder {
   padding: 5px 10px;
 }
 .tip-text {
-  font-size: 18px;
+  font-size: 16px;
   margin: 0;
   padding: 5px 10px;
 }

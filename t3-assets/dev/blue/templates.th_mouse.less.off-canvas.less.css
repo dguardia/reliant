@@ -620,7 +620,7 @@ html[dir="ltr"] .off-canvas-right.old-ie .t3-off-canvas {
 .t3-off-canvas .t3-off-canvas-header h2 {
   margin: 0;
   line-height: 35px;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -652,8 +652,8 @@ html[dir="ltr"] .off-canvas-right.old-ie .t3-off-canvas {
   outline-offset: -2px;
 }
 .t3-off-canvas .t3-off-canvas-body .t3-module {
-  margin-bottom: 29px;
+  margin-bottom: 26px;
 }
 .t3-off-canvas .t3-off-canvas-body .module-title {
-  margin-bottom: 14.5px;
+  margin-bottom: 13px;
 }

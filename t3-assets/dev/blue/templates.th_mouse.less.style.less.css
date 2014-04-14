@@ -232,8 +232,8 @@
   margin: 100px 0 11px 0;
 }
 .t3-header {
-  padding-top: 29px;
-  padding-bottom: 29px;
+  padding-top: 26px;
+  padding-bottom: 26px;
 }
 .navbar-nav li.open {
   color: #037096;
@@ -259,7 +259,7 @@
   display: none;
 }
 .head-search {
-  margin-top: 29px;
+  margin-top: 26px;
 }
 .head-search:before,
 .head-search:after {
@@ -314,26 +314,26 @@ iframe {
   border: 0;
 }
 .t3-sl {
-  padding-bottom: 29px;
-  padding-top: 29px;
+  padding-bottom: 26px;
+  padding-top: 26px;
 }
 @media screen and (min-width: 768px) {
   .t3-sl {
-    padding-bottom: 29px;
-    padding-top: 29px;
+    padding-bottom: 26px;
+    padding-top: 26px;
   }
 }
 .t3-mainbody {
-  padding-top: 29px;
-  padding-bottom: 29px;
+  padding-top: 26px;
+  padding-bottom: 26px;
 }
 .t3-content {
-  padding-top: 29px;
-  padding-bottom: 29px;
+  padding-top: 26px;
+  padding-bottom: 26px;
 }
 .t3-sidebar {
-  padding-top: 29px;
-  padding-bottom: 29px;
+  padding-top: 26px;
+  padding-bottom: 26px;
 }
 .t3-sidebar h3 {
   text-transform: uppercase;
@@ -358,7 +358,7 @@ iframe {
   font-size: 100%;
 }
 .t3-footnav {
-  padding: 29px 0;
+  padding: 26px 0;
 }
 .t3-footnav:before,
 .t3-footnav:after {
@@ -370,19 +370,19 @@ iframe {
 }
 @media screen and (min-width: 768px) {
   .t3-footnav {
-    padding: 29px 0;
+    padding: 26px 0;
   }
 }
 .t3-footnav .t3-module {
   background: #f8f8f8;
   color: #555555;
-  margin-top: 14.5px;
-  margin-bottom: 14.5px;
+  margin-top: 13px;
+  margin-bottom: 13px;
 }
 .t3-footnav .t3-module .module-title {
   color: #2e2e2e;
-  font-size: 23px;
-  margin-bottom: 14.5px;
+  font-size: 20px;
+  margin-bottom: 13px;
 }
 .t3-footnav .t3-module ul {
   list-style: none;
@@ -403,8 +403,8 @@ iframe {
 }
 .t3-copyright {
   border-top: 1px solid #eeeeee;
-  font-size: 16px;
-  padding: 58px 0 116px;
+  font-size: 14px;
+  padding: 52px 0 104px;
 }
 .t3-copyright:before,
 .t3-copyright:after {
@@ -418,7 +418,7 @@ iframe {
   margin-bottom: 5px;
 }
 .copyright {
-  margin-bottom: 29px;
+  margin-bottom: 26px;
 }
 .poweredby:before,
 .poweredby:after {
